@@ -1,0 +1,38 @@
+# main menu navigation
+menu:
+  home: /
+  archives: /archives
+  about: /about
+  rss: http://feeds.feedburner.com/progblog/BLNZ
+
+
+# Miscelaneous
+favicon: img/favicon.ico
+
+show_post_category: true
+show_post_tags: true
+
+active_nav: false # show active status on nav menu
+
+sidebar: true # whether to show the sidebar
+widgets:
+#  - category
+#  - tag
+  - tagcloud
+  - archive
+  - recent_posts
+  - links
+links:
+  - title: "Richard Jeffords"
+    url: https://richardjeffords.com
+  - title: "Matt Huddleston"
+    url: https://huddlehouse.io
+
+# disqus_shortname: wayou
+duoshuo_shortname: progblog-1
+#site statistic
+google_analytics:  
+# baidu_analytics: 392796d51567e848aebf813b65cb8656
+baidu_analytics: 
+
+

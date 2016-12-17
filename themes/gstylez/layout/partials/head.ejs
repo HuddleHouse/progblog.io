@@ -1,0 +1,45 @@
+<head>
+    <meta name="google-site-verification" content="gZP7_zgFE_cU1s_mOLvBVYgx22grF_AJpUtJ7-7VPVk" />
+        <meta charset="utf-8">
+            <%
+              var title = page.title;
+
+              if (is_archive()){
+                title = __('archive_a');
+
+                if (is_month()){
+                  title += ': ' + page.year + '/' + page.month;
+                } else if (is_year()){
+                  title += ': ' + page.year;
+                }
+              } else if (is_category()){
+                title = __('category') + ': ' + page.category;
+              } else if (is_tag()){
+                title = __('tag') + ': ' + page.tag;
+              }
+              %>
+            <title>
+                <% if (title){ %><%= title %> | <% } %><%= config.title %>
+            </title>
+            <meta content="width=device-width, initial-scale=1" name="viewport">
+            <meta name="theme-color" content="#4184f3">
+            <% if (theme.rss){ %>
+            <link href="<%- theme.rss %>" rel="alternate" title="<%= config.title %>" type="application/atom+xml"/>
+            <% } %>
+            <link href="<%- url_for('img/favicon.ico') %>" rel="icon"/>
+
+            <%- css('css/highlight.light') %>
+            <%- css('css/prism-customize') %>
+            <%- css('css/nav-icon') %>
+            <%- css('css/waves.min') %>
+            <%- css('css/jquery.tocify') %>
+            <%- css('css/main') %>
+            <%- css('css/nav-indicator') %>
+            <%- partial('analytics') %>
+            <!--
+            Include Jquery here instead of footer. Need to use it in index.ejs to append the banner to the homepage. It was saying jQuery not defined otherwise.
+            -->
+            <%- js('lib/jquery') %>
+            </meta>
+        </meta>
+    </head>

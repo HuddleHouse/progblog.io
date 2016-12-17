@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+          <%- partial('partials/head') %>
+
+    <body>
+
+        <div id="main" class="m-scene">
+
+            <%- partial('partials/nav') %>
+
+            <div id="home-header">
+                <!-- If you are on the homepage the banner gets put here in js -->
+            </div>
+
+            <div class="container content">
+                <div class="scene_element scene_element--fadein">
+                    <%- body %>
+                </div>
+            </div>
+        </div>
+        <%- partial('partials/footer') %>
+    </body>
+</html>
