@@ -20,7 +20,7 @@ First, we must install the Angular 2 CLI so that we can use it to generate a new
 
 The code for this project is hosted on my [Github](https://github.com/HuddleHouse/angular-2-cli-material). Feel free to fork and use freely!
 
-End Result:
+The End Result:
 
 ![The Angular 2 App that we are going to build!](final.png)
 
