@@ -1,0 +1,1 @@
+../prog-blog/hexo.sh
