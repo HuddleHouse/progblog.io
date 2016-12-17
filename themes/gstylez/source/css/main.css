@@ -25,6 +25,32 @@ body {
     overflow-x: hidden;
 }
 
+.Supporter--size-728x90 {
+    width: 728px;
+    height: 90px;
+}
+.Supporter {
+    position: relative;
+    margin: 0 auto;
+    contain: strict;
+}
+
+.Supporter-placeholder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    color: #FFFFFF;
+    background-color: #5fcf80;
+}
+
 body.nav-active{
     overflow: hidden;
 }
