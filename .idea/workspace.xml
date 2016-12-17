@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="88de919e-e005-4a01-a927-b3af3ad5e55e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/gstylez/layout/partials/comments.ejs" afterPath="$PROJECT_DIR$/themes/gstylez/layout/partials/comments.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/gstylez/layout/partials/footer.ejs" afterPath="$PROJECT_DIR$/themes/gstylez/layout/partials/footer.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/gstylez/layout/post.ejs" afterPath="$PROJECT_DIR$/themes/gstylez/layout/post.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/gstylez/source/css/main.css" afterPath="$PROJECT_DIR$/themes/gstylez/source/css/main.css" />
     </list>
     <ignored path="prog-blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,12 +29,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="comments.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="comments.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/partials/comments.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state relative-caret-position="270">
+              <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
               <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ins#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -51,21 +55,21 @@
       <file leaf-file-name="post.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/post.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1602">
-              <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+            <state relative-caret-position="245">
+              <caret line="83" column="82" selection-start-line="83" selection-start-column="82" selection-end-line="83" selection-end-column="82" />
               <folding>
                 <element signature="n#style#0;n#ins#0;n#div#1;n#div#1;n#header#0;n#article#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ins#0;n#div#0;n#aside#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#ins#0;n#div#1;n#div#0;n#div#0;n#aside#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/themes/gstylez/source/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7405">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state relative-caret-position="378">
+              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -88,8 +92,8 @@
       <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/partials/footer.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="180">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -159,11 +163,11 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/source/_posts/2016-10-07-How-to-Store-a-Symfony-Project-on-Github.md" />
         <option value="$PROJECT_DIR$/themes/gstylez/source/js/ads.js" />
-        <option value="$PROJECT_DIR$/themes/gstylez/layout/partials/comments.ejs" />
-        <option value="$PROJECT_DIR$/themes/gstylez/layout/partials/footer.ejs" />
-        <option value="$PROJECT_DIR$/themes/gstylez/source/css/main.css" />
         <option value="$PROJECT_DIR$/themes/gstylez/layout/partials/analytics.ejs" />
+        <option value="$PROJECT_DIR$/themes/gstylez/layout/partials/footer.ejs" />
         <option value="$PROJECT_DIR$/themes/gstylez/layout/post.ejs" />
+        <option value="$PROJECT_DIR$/themes/gstylez/layout/partials/comments.ejs" />
+        <option value="$PROJECT_DIR$/themes/gstylez/source/css/main.css" />
       </list>
     </option>
   </component>
@@ -480,7 +484,7 @@
       <workItem from="1481209654277" duration="1056000" />
       <workItem from="1481657321110" duration="628000" />
       <workItem from="1481909660739" duration="4000" />
-      <workItem from="1481998815968" duration="6803000" />
+      <workItem from="1481998815968" duration="7205000" />
     </task>
     <task id="LOCAL-00001" summary="New post.">
       <created>1475430527083</created>
@@ -804,11 +808,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482007459520</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Fixing styling on ad's on the side.">
+      <created>1482007821661</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1482007821661</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46381000" />
+    <option name="totallyTimeSpent" value="46783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="576" y="23" width="1889" height="1413" extended-state="0" />
@@ -1138,22 +1149,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/partials/footer.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7405">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/partials/head.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -1170,24 +1165,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/post.ejs">
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/partials/comments.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1602">
-          <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+        <state relative-caret-position="270">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding>
-            <element signature="n#style#0;n#ins#0;n#div#1;n#div#1;n#header#0;n#article#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ins#0;n#div#0;n#aside#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ins#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/partials/comments.ejs">
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/partials/footer.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state relative-caret-position="180">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/post.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="83" column="82" selection-start-line="83" selection-start-column="82" selection-end-line="83" selection-end-column="82" />
           <folding>
-            <element signature="n#style#0;n#ins#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ins#0;n#div#1;n#div#1;n#header#0;n#article#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#ins#0;n#div#1;n#div#0;n#div#0;n#aside#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
