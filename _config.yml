@@ -68,8 +68,8 @@ theme: gstylez
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: https://github.com/HuddleHouse/progblog.io
+  type: heroku
+  repo: https://git.heroku.com/progblogi.git
   message: "Yeah"
 
 
