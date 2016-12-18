@@ -1,5 +1,5 @@
 ---
-title: 'Angular 2 Tutorial: Create an App with Angular 2 Material Design and Angular CLI'
+title: 'Angular 2 Tutorial: Create an App with Angular CLI and Angular 2 Material Design'
 toc: true
 author: Matt Huddleston
 author_img: /img/matt.jpg
