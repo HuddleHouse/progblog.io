@@ -22,7 +22,7 @@ The code for this project is hosted on my [Github](https://github.com/HuddleHous
 
 The End Result:
 
-![The Angular 2 App that we are going to build!](final.png)
+![In this Angular 2 Tutorial we build a demo app that will look like this in the end!](final.png)
 
 ## Overview
 
@@ -60,7 +60,7 @@ We now can use the `ng` command in a terminal window. To create a new project we
 ng new my-project-name
 ```
 
-![Terminal window after creating new project.](created-new.png)
+![Terminal window after creating our new Angular 2 Material Design Demo project.](created-new.png)
 
 A new project will be made inside of the folder `my-project-name`.
 
@@ -76,7 +76,7 @@ ng serve
 
 Open your browser and point it to `http://localhost:4200`. You should see:
 
-![App is working.](it-works.png)
+![Our new Angular 2 Material Design Demo app.](it-works.png)
 
 ## Install Material Design for Angular 2 through npm
 
@@ -389,7 +389,7 @@ body {
 
 Once you have added all of that you should be able to run `ng serve` and see the final product! You can also press the `TOGGLE DARK THEME` button and see the dark theme.
 
-![Final Result!](final-dark.png)
+![This is the final result of our Angular 2 Material Design demo app!](final-dark.png)
 
 ## Conclusion
 
