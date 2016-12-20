@@ -1,1 +1,0 @@
-../prog-blog/README.md
