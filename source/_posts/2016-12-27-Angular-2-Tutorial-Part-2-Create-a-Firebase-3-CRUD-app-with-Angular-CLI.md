@@ -4,7 +4,7 @@ toc: true
 author: Matt Huddleston
 author_img: /img/matt.jpg
 author_link: 'https://huddlehouse.io'
-excerpt: ''
+excerpt: "This section will cover adding user authentication using Firebase's Authentication. We will see how easy it is to log someone into our app using their Google Account, all without having to worry about any OAuth protocol."
 tags:
    - Node.js
    - Angular 2
@@ -27,7 +27,7 @@ If you would like to use the full code for **part 2** it can be found [here](htt
 
 **Part 3:** **COMING SOON** We will build a simple chat app that stores messages in a Firebase Realtime Database. Users will be able to edit or delete messages that they sent to the chat. 
 
-This section will cover adding user authentication using Firebase's Authentication. We will see how easy it is to log someone into our app using their Google Account, all without having to worry about any [OAuth](https://oauth.net/2/) protocol. Google handles all of that for you.
+This section will cover adding user authentication using Firebase's Authentication. We will see how easy it is to log someone into our app using their Google Account, all without having to worry about any [OAuth](https://oauth.net/2/) protocol. Firebase handles all of that for you.
 
 We will also set up Routing and Navigation using [Angular Router](https://angular.io/docs/ts/latest/guide/router.html).
 
