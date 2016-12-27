@@ -1,5 +1,5 @@
 ---
-title: 'Angular 2 Tutorial Part 1: Create Firebase 3 CRUD app with Angular CLI'
+title: 'Angular 2 Tutorial Part 1: Create a Firebase 3 CRUD app with Angular CLI'
 toc: true
 author: Matt Huddleston
 author_img: /img/matt.jpg
@@ -21,7 +21,7 @@ In this 3 part tutorial series we will build a simple chat app. It will require 
 
 If you would like to use the full code for **part 1** it can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-1). 
 
-**Part 2:** Add user login through their Google account. Create the Login Page and Home Page Components. Add asychronous monitoring of the logged in status. Redirect to the Home Page when logged in and to the Login Page when the user logs out.
+[**Part 2:**](https://progblog.io/Angular-2-Tutorial-Part-2-Create-Firebase-3-CRUD-app-with-Angular-CLI/) Add user login through their Google account. Create the Login Page and Home Page Components. Add asychronous monitoring of the logged in status. Redirect to the Home Page when logged in and to the Login Page when the user logs out.
 
 If you would like to use the full code for **part 2** it can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-2). 
 
