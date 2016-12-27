@@ -173,4 +173,4 @@ Your Firebase credentials can be found in the Firebase console. When you log in,
 
 Now we are set up to use Firebase in our project. In the next tutorial we will add user authentication. If you have any questions please don't hesitate to ask me! :)
 
-Continue to [**Part 2:**](https://progblog.io/Angular-2-Tutorial-Part-2-Create-Firebase-3-CRUD-app-with-Angular-CLI/).
+Continue to [**Part 2**](https://progblog.io/Angular-2-Tutorial-Part-2-Create-Firebase-3-CRUD-app-with-Angular-CLI/)
