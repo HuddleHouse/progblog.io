@@ -12,7 +12,7 @@ date: 2016-10-03 23:56:40
 <div style="display:table;">
     <img src="https://progblog.io/img/matt.jpg" style="display:block;float:left;margin-right:10px;" class="img-circle">
         <p>
-            <strong>Matt Huddleston</strong> is a developer also in Knoxville, TN who has a passion for new technology and all things programing.
+            <strong>Matt Huddleston</strong> is a developer also in Knoxville, TN who has a passion for new technology and all things programming.
         </p>
 </div>
 ***
