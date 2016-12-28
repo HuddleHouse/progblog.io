@@ -16,7 +16,7 @@ date: 2016-10-17 15:51:16
 
 In this tutorial we will be setting up a new [Angular 2](https://angular.io/) project using the [Angular 2 CLI (Command Line Interface)](https://github.com/angular/angular-cli). Then we will add [Material Design for Angular 2](https://github.com/angular/material2) to our project and customize.
 
-The finished chat app that we are building can be viewed [here](https://fir-crud-93710.firebaseapp.com/).
+The finished chat app that we are building can be viewed [**here**](https://fir-crud-93710.firebaseapp.com/).
 
 First, we must install the Angular 2 CLI so that we can use it to generate a new Angular 2 project. Using npm we will install and configure Material Design for Angular 2 into our project. Lastly, we will add a custom SCSS style sheet and get Angular CLI to load it in for us.
 

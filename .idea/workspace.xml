@@ -27,7 +27,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2016-10-17-Angular-2-Tutorial-Create-an-App-With-Angular-CLI-and-Angular-Material-Design.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2016-10-17-Angular-2-Tutorial-Create-an-App-With-Angular-CLI-and-Angular-Material-Design.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-17-Angular-2-Tutorial-Create-an-App-With-Angular-CLI-and-Angular-Material-Design.md">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
@@ -35,7 +35,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="324">
-                <caret line="18" column="105" selection-start-line="18" selection-start-column="105" selection-end-line="18" selection-end-column="105" />
+                <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -43,7 +43,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
@@ -51,7 +51,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="342">
-                <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="105" />
+                <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -105,8 +105,8 @@
         <option value="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-Firebase-3-CRUD-app-with-Angular-CLI.md" />
         <option value="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md" />
         <option value="$PROJECT_DIR$/source/about/index.md" />
-        <option value="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md" />
         <option value="$PROJECT_DIR$/source/_posts/2016-10-17-Angular-2-Tutorial-Create-an-App-With-Angular-CLI-and-Angular-Material-Design.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md" />
       </list>
     </option>
   </component>
@@ -377,14 +377,7 @@
       <workItem from="1482090190407" duration="947000" />
       <workItem from="1482200319034" duration="1213000" />
       <workItem from="1482876626507" duration="3277000" />
-      <workItem from="1482950167500" duration="99000" />
-    </task>
-    <task id="LOCAL-00015" summary="New post.">
-      <created>1475871195641</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1475871195641</updated>
+      <workItem from="1482950167500" duration="538000" />
     </task>
     <task id="LOCAL-00016" summary="New post.">
       <created>1475871235371</created>
@@ -722,22 +715,29 @@
       <option name="project" value="LOCAL" />
       <updated>1482912107051</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Adding new blog post.">
+      <created>1482950269644</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1482950269645</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60425000" />
+    <option name="totallyTimeSpent" value="60864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="525" y="23" width="1889" height="1413" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19164883" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28841788" sideWeight="0.50428265" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329296" sideWeight="0.496788" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28841788" sideWeight="0.49571735" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28841788" sideWeight="0.49571735" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1154,20 +1154,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md">
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="342">
-            <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="105" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-17-Angular-2-Tutorial-Create-an-App-With-Angular-CLI-and-Angular-Material-Design.md">
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
@@ -1175,7 +1161,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="324">
-            <caret line="18" column="105" selection-start-line="18" selection-start-column="105" selection-end-line="18" selection-end-column="105" />
+            <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
             <folding />
           </first_editor>
           <second_editor />
@@ -1185,6 +1171,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="342">
+            <caret line="19" column="66" selection-start-line="19" selection-start-column="66" selection-end-line="19" selection-end-column="66" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
