@@ -17,11 +17,11 @@ date: 2016-12-27 17:13:27
 ## Introduction
 In this 3 part tutorial series we will build a simple chat app. It will require the user to login and then they can chat with anyone else in the room. We will use [Firebase 3](https://firebase.google.com) as our db and as our authentication. We will use a [NPM](https://www.npmjs.com/) package called [AngularFire 2](https://www.npmjs.com/package/angularfire2), which is the official library for Firebase and Angular 2.
 
-[**Part 1:**](https://progblog.io/Angular-2-Tutorial-Part-1-Create-Firebase-3-CRUD-app-with-Angular-CLI/) Installing necessary components. Generating a blank app through Angular CLI. Add Bootstrap for styling. Create Firebase account. Install and setup Firebase through NPM.
+[**Part 1:**](https://progblog.io/Angular-2-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/) Installing necessary components. Generating a blank app through Angular CLI. Add Bootstrap for styling. Create Firebase account. Install and setup Firebase through NPM.
 
 If you would like to use the full code for **part 1** it can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-1). 
 
-[**Part 2:**](https://progblog.io/Angular-2-Tutorial-Part-2-Create-Firebase-3-CRUD-app-with-Angular-CLI/) Add user login through their Google account. Create the Login Page and Home Page Components. Add asychronous monitoring of the logged in status. Redirect to the Home Page when logged in and to the Login Page when the user logs out.
+[**Part 2:**](https://progblog.io/Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/) Add user login through their Google account. Create the Login Page and Home Page Components. Add asychronous monitoring of the logged in status. Redirect to the Home Page when logged in and to the Login Page when the user logs out.
 
 If you would like to use the full code for **part 2** it can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-2). 
 
@@ -173,4 +173,4 @@ Your Firebase credentials can be found in the Firebase console. When you log in,
 
 Now we are set up to use Firebase in our project. In the next tutorial we will add user authentication. If you have any questions please don't hesitate to ask me! :)
 
-Continue to [**Part 2**](https://progblog.io/Angular-2-Tutorial-Part-2-Create-Firebase-3-CRUD-app-with-Angular-CLI/)
+Continue to [**Part 2**](https://progblog.io/Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/)
