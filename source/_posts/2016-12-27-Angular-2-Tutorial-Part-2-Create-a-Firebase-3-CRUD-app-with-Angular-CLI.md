@@ -15,7 +15,9 @@ tags:
 date: 2016-12-27 17:23:52
 ---
 ## Introduction
-This tutorial is **part 2** of a 3 part series. If you would like to see **part 1** you can go to it [here]().
+This tutorial is **part 2** of a 3 part series. If you would like to see **part 1** you can go to it [here](https://progblog.io/Angular-2-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/).
+
+The finished chat app that we are building can be viewed [here](https://fir-crud-93710.firebaseapp.com/).
 
 [**Part 1:**](https://progblog.io/Angular-2-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/) Installing necessary components. Generating a blank app through Angular CLI. Add Bootstrap for styling. Create Firebase account. Install and setup Firebase through NPM.
 
