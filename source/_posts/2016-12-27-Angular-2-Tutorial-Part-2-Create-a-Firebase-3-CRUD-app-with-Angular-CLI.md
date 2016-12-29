@@ -27,7 +27,7 @@ The code for **part 1** can be found [here](https://github.com/HuddleHouse/fireb
 
 The code for **part 2** can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-2). 
 
-**Part 3:** **COMING SOON** We will build a simple chat app that stores messages in a Firebase Realtime Database. Users will be able to edit or delete messages that they sent to the chat. 
+**Part 3:** **COMING SOON** We will build a simple chat app that stores messages in a Firebase Realtime Database. 
 
 The code for **part 3** can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-3). 
 
