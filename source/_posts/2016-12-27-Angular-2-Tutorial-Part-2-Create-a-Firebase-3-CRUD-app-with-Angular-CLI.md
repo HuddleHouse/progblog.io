@@ -19,6 +19,8 @@ This tutorial is **part 2** of a 3 part series. If you would like to see **part 
 
 The finished chat app that we are building can be viewed [**here**](https://fir-crud-93710.firebaseapp.com/). The code for all 3 parts is on my [Github](https://github.com/HuddleHouse/firebase-crud), each part of this tutorial is a new branch on that repository.
 
+### Sections
+
 [**Part 1:**](https://progblog.io/Angular-2-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/) Installing necessary components. Generating a blank app through Angular CLI. Add Bootstrap for styling. Create Firebase account. Install and setup Firebase through NPM.
 
 The code for **part 1** can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-1). 
@@ -30,6 +32,8 @@ The code for **part 2** can be found [here](https://github.com/HuddleHouse/fireb
 **Part 3:** **COMING SOON** We will build a simple chat app that stores messages in a Firebase Realtime Database. 
 
 The code for **part 3** can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-3). 
+
+### Getting Started
 
 In this section we will cover adding user authentication using Firebase's Authentication. We will see how easy it is to log someone into our app using their Google Account, all without having to worry about any [OAuth](https://oauth.net/2/) protocol. Firebase handles all of that for you.
 

@@ -19,6 +19,8 @@ In this 3 part tutorial series we will build a simple chat app. It will require 
 
 The finished chat app that we are building can be viewed [**here**](https://fir-crud-93710.firebaseapp.com/). The code for all 3 parts is on my [Github](https://github.com/HuddleHouse/firebase-crud), each part of this tutorial is a new branch on that repository.
 
+### Sections
+
 [**Part 1:**](https://progblog.io/Angular-2-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/) Installing necessary components. Generating a blank app through Angular CLI. Add Bootstrap for styling. Create Firebase account. Install and setup Firebase through NPM.
 
 The code for **part 1** can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-1). 
