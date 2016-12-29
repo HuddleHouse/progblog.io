@@ -21,15 +21,17 @@ The finished chat app that we are building can be viewed [**here**](https://fir-
 
 [**Part 1:**](https://progblog.io/Angular-2-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/) Installing necessary components. Generating a blank app through Angular CLI. Add Bootstrap for styling. Create Firebase account. Install and setup Firebase through NPM.
 
-If you would like to use the full code for **part 1** it can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-1). 
+The code for **part 1** can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-1). 
 
 [**Part 2:**](https://progblog.io/Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/) Add user login through their Google account. Create the Login Page and Home Page Components. Add asynchronous monitoring of the logged in status. Redirect to the Home Page when logged in and to the Login Page when the user logs out.
 
-If you would like to use the full code for **part 2** it can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-2). 
+The code for **part 2** can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-2). 
 
 **Part 3:** **COMING SOON** We will build a simple chat app that stores messages in a Firebase Realtime Database. Users will be able to edit or delete messages that they sent to the chat. 
 
-This section will cover adding user authentication using Firebase's Authentication. We will see how easy it is to log someone into our app using their Google Account, all without having to worry about any [OAuth](https://oauth.net/2/) protocol. Firebase handles all of that for you.
+The code for **part 3** can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-3). 
+
+In this section we will cover adding user authentication using Firebase's Authentication. We will see how easy it is to log someone into our app using their Google Account, all without having to worry about any [OAuth](https://oauth.net/2/) protocol. Firebase handles all of that for you.
 
 We will also set up Routing and Navigation using [Angular Router](https://angular.io/docs/ts/latest/guide/router.html).
 
