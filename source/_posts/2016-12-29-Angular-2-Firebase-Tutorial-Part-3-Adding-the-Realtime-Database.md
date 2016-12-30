@@ -17,7 +17,7 @@ date: 2016-12-29 23:05:04
 ## Introduction
 This tutorial is **part 3** of a 4 part series. If you would like to see **part 2** you can go to it [here](https://progblog.io/Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication).
 
-The finished chat app that we are building can be viewed [**here**](https://fir-crud-93710.firebaseapp.com/). The code for all 3 parts is on my [Github](https://github.com/HuddleHouse/firebase-crud), each part of this tutorial is a new branch on that repository.
+The finished chat app that we are building can be seen live [**here**](https://fir-crud-93710.firebaseapp.com/). The code for all 3 parts is on my [Github](https://github.com/HuddleHouse/firebase-crud), each part of this tutorial is a new branch on that repository.
 
 ### Sections
 
