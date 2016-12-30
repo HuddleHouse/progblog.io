@@ -1,5 +1,5 @@
 ---
-title: 'Angular 2 Tutorial Part 1: Create a Firebase 3 CRUD app with Angular CLI'
+title: 'Angular 2 Firebase Tutorial Part 1: Create a Firebase 3 CRUD app with Angular CLI'
 toc: true
 author: Matt Huddleston
 author_img: /img/matt.jpg
@@ -15,25 +15,29 @@ tags:
 date: 2016-12-27 17:13:27
 ---
 ## Introduction
-In this 3 part tutorial series we will build a simple chat app. It will require the user to login and then they can chat with anyone else in the room. We will use [Firebase 3](https://firebase.google.com) as our db and as our authentication. We will use a [NPM](https://www.npmjs.com/) package called [AngularFire 2](https://www.npmjs.com/package/angularfire2), which is the official library for Firebase and Angular 2.
+In this 4 part tutorial series we will build a simple chat app. It will require the user to login and then they can chat with anyone else in the room. We will use [Firebase 3](https://firebase.google.com) as our db and as our authentication. We will use a [NPM](https://www.npmjs.com/) package called [AngularFire 2](https://www.npmjs.com/package/angularfire2), which is the official library for Firebase and Angular 2.
 
 The finished chat app that we are building can be viewed [**here**](https://fir-crud-93710.firebaseapp.com/). The code for all 3 parts is on my [Github](https://github.com/HuddleHouse/firebase-crud), each part of this tutorial is a new branch on that repository.
 
 ### Sections
 
-[**Part 1:**](https://progblog.io/Angular-2-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/) Installing necessary components. Generating a blank app through Angular CLI. Add Bootstrap for styling. Create Firebase account. Install and setup Firebase through NPM.
+[**Part 1:**](https://progblog.io/Angular-2-Firebase-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/) Installing necessary components. Generating a blank app through Angular CLI. Add Bootstrap for styling. Create Firebase account. Install and setup Firebase through NPM.
 
 The code for **part 1** can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-1). 
 
-[**Part 2:**](https://progblog.io/Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/) Add user login through their Google account. Create the Login Page and Home Page Components. Add asychronous monitoring of the logged in status. Redirect to the Home Page when logged in and to the Login Page when the user logs out.
+[**Part 2:**](https://progblog.io/Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication/) Add user login through their Google account. Create the Login Page and Home Page Components. Add asynchronous monitoring of the logged in status. Redirect to the Home Page when logged in and to the Login Page when the user logs out.
 
 The code for **part 2** can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-2). 
 
-**Part 3:** **COMING SOON** We will build a simple chat app that stores messages in a Firebase Realtime Database.
+[**Part 3:**](https://progblog.io/Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database/) We will add a simple chat app that stores messages into a Firebase Realtime Database. 
 
-The code for **part 3** can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-3). 
+The code for **part 3** can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-3).
 
-CRUD stands for Create, Read, Update and Delete. Firebase take a lot of the complexity out of a web app, which makes development a lot easier!
+**Part 4:** COMING SOON Adding the ability for a user to edit or delete any messages that they have sent. 
+
+In this section we will be adding a basic chat to the app. It will sync asynchronously with Firebase's Realtime Database. 
+
+CRUD stands for Create, Read, Update and Delete. Firebase handles a lot of the complexity of a web app for you, which makes development a lot easier!
 
 ### About Firebase
 
