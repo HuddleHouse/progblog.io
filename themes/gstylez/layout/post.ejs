@@ -39,6 +39,7 @@
                   <% if(!page.author_link) { %>
                   <img class="img-circle" src="<%= page.author_img %>"></a>
                   <h5 class="author-title">posted by <%= page.author %></h5>
+
                   <% } %>
               </div>
               <div class="Supporter Supporter--size-728x90">
@@ -60,7 +61,8 @@
               </div>
 
           <section class="post-content">
-              <div class="fb-like" style="margin-top: 20px;" data-href="https://www.facebook.com/progblog.io" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+              <div class="fb-like" style="margin-top: 20px; margin-left: 27vw;" data-href="https://www.facebook.com/progblog.io" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+
               <%-page.content%>
           </section>
         </article>
