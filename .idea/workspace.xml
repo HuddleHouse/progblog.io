@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88de919e-e005-4a01-a927-b3af3ad5e55e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_posts/2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database/Firebase_Console.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_posts/2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database/chat.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_posts/2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database/new-key.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/FirebaseCrud.png" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/FirebaseCrud.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/Firebase_Console.png" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/Firebase_Console.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/addToWebApp.png" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/addToWebApp.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/new-app.png" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/new-app.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/enable-google.png" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication/enable-google.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/homepage.png" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication/homepage.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/login-page.png" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication/login-page.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/login-pic.png" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication/login-pic.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/new-user.png" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication/new-user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_posts/2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="prog-blog.iws" />
@@ -78,8 +65,8 @@
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="7272">
-                <caret line="404" column="1" selection-start-line="404" selection-start-column="1" selection-end-line="404" selection-end-column="1" />
+              <first_editor relative-caret-position="342">
+                <caret line="19" column="164" selection-start-line="19" selection-start-column="164" selection-end-line="19" selection-end-column="164" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -151,8 +138,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="2560" />
+    <option name="x" value="588" />
+    <option name="y" value="29" />
+    <option name="width" value="1889" />
     <option name="height" value="1413" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -409,14 +397,7 @@
       <workItem from="1482876626507" duration="3277000" />
       <workItem from="1482950167500" duration="582000" />
       <workItem from="1482956782346" duration="4442000" />
-      <workItem from="1483070357209" duration="2221000" />
-    </task>
-    <task id="LOCAL-00021" summary="New post.">
-      <created>1476127743872</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1476127743872</updated>
+      <workItem from="1483070357209" duration="2262000" />
     </task>
     <task id="LOCAL-00022" summary="New post.">
       <created>1476742163046</created>
@@ -754,23 +735,30 @@
       <option name="project" value="LOCAL" />
       <updated>1483033697408</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Part 3 added">
+      <created>1483072783952</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1483072783952</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67571000" />
+    <option name="totallyTimeSpent" value="67612000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2560" height="1413" extended-state="6" />
+    <frame x="588" y="29" width="1889" height="1413" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14100039" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1407923" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28841788" sideWeight="0.50428265" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329296" sideWeight="0.496788" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28841788" sideWeight="0.49571735" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28841788" sideWeight="0.49571735" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -809,7 +797,8 @@
     <MESSAGE value="Adding Adsense and fixing styling to show ads" />
     <MESSAGE value="Fixing styling on ad's on the side." />
     <MESSAGE value="Adding new blog post." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding new blog post." />
+    <MESSAGE value="Part 3 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part 3 added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1215,8 +1204,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="7272">
-            <caret line="404" column="1" selection-start-line="404" selection-start-column="1" selection-end-line="404" selection-end-column="1" />
+          <first_editor relative-caret-position="342">
+            <caret line="19" column="164" selection-start-line="19" selection-start-column="164" selection-end-line="19" selection-end-column="164" />
             <folding />
           </first_editor>
           <second_editor />
