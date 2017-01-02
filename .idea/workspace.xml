@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88de919e-e005-4a01-a927-b3af3ad5e55e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/enable-google.png" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication/enable-google.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/homepage.png" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication/homepage.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/login-page.png" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication/login-page.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/login-pic.png" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication/login-pic.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/new-user.png" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication/new-user.png" />
+    <list default="true" id="88de919e-e005-4a01-a927-b3af3ad5e55e" name="Default" comment="Adding new blog post.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication.md" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication.md" />
     </list>
     <ignored path="prog-blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,15 +78,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database.md">
           <provider editor-type-id="MarkdownFxPreviewEditor">
             <state />
           </provider>
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="36">
-                <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+              <first_editor relative-caret-position="198">
+                <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication.md">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="342">
+                <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -111,16 +122,6 @@
       </file>
       <file leaf-file-name="page.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/page.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.rules.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database.rules.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -193,6 +194,7 @@
         <option value="$PROJECT_DIR$/themes/gstylez/source/css/main.css" />
         <option value="$PROJECT_DIR$/themes/gstylez/layout/partials/footer.ejs" />
         <option value="$PROJECT_DIR$/themes/gstylez/layout/post.ejs" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication.md" />
       </list>
     </option>
   </component>
@@ -363,6 +365,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prog-blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prog-blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -488,14 +512,7 @@
       <workItem from="1483108486150" duration="1550000" />
       <workItem from="1483112045137" duration="473000" />
       <workItem from="1483112540392" duration="14000" />
-      <workItem from="1483391805941" duration="575000" />
-    </task>
-    <task id="LOCAL-00009" summary="New post.">
-      <created>1475596469103</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1475596469103</updated>
+      <workItem from="1483391805941" duration="714000" />
     </task>
     <task id="LOCAL-00010" summary="New post.">
       <created>1475700245033</created>
@@ -833,11 +850,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483391937932</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Adding new blog post.">
+      <created>1483392384236</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1483392384236</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59532000" />
+    <option name="totallyTimeSpent" value="59671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="179" y="23" width="2189" height="1314" extended-state="0" />
@@ -898,7 +922,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-01-How-to-Free-SSL-Certificate-that-Renews-Automatically.md" />
     <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-02-Symfony-3-1-Up-and-Running-in-60-Seconds.md" />
     <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-17-Angular2-Tutorial-Up-and-Running-with-Angular2-CLI-and-Angular-Material.md" />
     <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-02-Symfony-3-1-Up-and-Running-in-60-Seconds.md" />
@@ -1243,8 +1266,22 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="36">
-            <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+          <first_editor relative-caret-position="198">
+            <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="342">
+            <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
