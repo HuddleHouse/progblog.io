@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88de919e-e005-4a01-a927-b3af3ad5e55e" name="Default" comment="Adding new blog post.">
+    <list default="true" id="88de919e-e005-4a01-a927-b3af3ad5e55e" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication.md" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication/enable-google.png" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/enable-google.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication/homepage.png" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/homepage.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication/login-page.png" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/login-page.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication/login-pic.png" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/login-pic.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication/new-user.png" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Tutorial-Part-2-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/new-user.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/gstylez/layout/post.ejs" afterPath="$PROJECT_DIR$/themes/gstylez/layout/post.ejs" />
     </list>
     <ignored path="prog-blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,12 +73,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.ejs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post.ejs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/post.ejs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="683">
               <caret line="63" column="55" selection-start-line="63" selection-start-column="55" selection-end-line="63" selection-end-column="55" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database.md">
+          <provider editor-type-id="MarkdownFxPreviewEditor">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="18">
+                <caret line="1" column="73" selection-start-line="0" selection-start-column="3" selection-end-line="1" selection-end-column="73" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -84,22 +105,6 @@
             <state relative-caret-position="342">
               <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016-12-17-How-to-deploy-a-Flask-App-to-Heroku.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/_posts/2016-12-17-How-to-deploy-a-Flask-App-to-Heroku.md">
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -201,6 +206,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="179" />
     <option name="y" value="23" />
     <option name="width" value="2189" />
     <option name="height" value="1314" />
@@ -230,6 +236,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -338,9 +345,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prog-blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prog-blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
@@ -463,14 +487,8 @@
       <workItem from="1483107918735" duration="123000" />
       <workItem from="1483108486150" duration="1550000" />
       <workItem from="1483112045137" duration="473000" />
-      <workItem from="1483112540392" duration="4000" />
-    </task>
-    <task id="LOCAL-00007" summary="New post.">
-      <created>1475596002551</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1475596002551</updated>
+      <workItem from="1483112540392" duration="14000" />
+      <workItem from="1483391805941" duration="127000" />
     </task>
     <task id="LOCAL-00008" summary="New post.">
       <created>1475596429918</created>
@@ -808,17 +826,24 @@
       <option name="project" value="LOCAL" />
       <updated>1483111735956</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Adding new blog post.">
+      <created>1483112548810</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1483112548810</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58947000" />
+    <option name="totallyTimeSpent" value="59084000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="2189" height="1314" extended-state="0" />
-    <editor active="false" />
+    <frame x="179" y="23" width="2189" height="1314" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1097786" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33809963" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28841788" sideWeight="0.50428265" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32832617" sideWeight="0.496788" order="7" side_tool="false" content_ui="tabs" />
@@ -873,7 +898,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-17-Angular2-Tutorial-Up-and-Running-with-Angular2-CLI-and-Angular-Material.md" />
     <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-01-How-to-Free-SSL-Certificate-that-Renews-Automatically.md" />
     <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-02-Symfony-3-1-Up-and-Running-in-60-Seconds.md" />
     <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-17-Angular2-Tutorial-Up-and-Running-with-Angular2-CLI-and-Angular-Material.md" />
@@ -1075,6 +1099,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-01-How-to-Free-SSL-Certificate-that-Renews-Automatically.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -1082,15 +1111,8 @@
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1100,6 +1122,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/2016-12-17-How-to-deploy-a-Flask-App-to-Heroku.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -1110,12 +1138,6 @@
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1136,6 +1158,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-17-Angular-2-Tutorial-Create-an-App-With-Angular-CLI-and-Angular-Material-Design.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -1146,12 +1174,6 @@
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1164,6 +1186,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/about/index.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
       <provider editor-type-id="MarkdownFxPreviewEditor">
         <state />
       </provider>
@@ -1174,12 +1202,6 @@
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1212,6 +1234,20 @@
         <state relative-caret-position="683">
           <caret line="63" column="55" selection-start-line="63" selection-start-column="55" selection-end-line="63" selection-end-column="55" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database.md">
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="18">
+            <caret line="1" column="73" selection-start-line="0" selection-start-column="3" selection-end-line="1" selection-end-column="73" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
