@@ -15,9 +15,9 @@ tags:
 date: 2016-12-27 17:13:27
 ---
 ## Introduction
-In this 4 part tutorial series we will build a simple chat app. It will require the user to login and then they can chat with anyone else in the room. We will use [Firebase 3](https://firebase.google.com) as our db and as our authentication. We will use a [NPM](https://www.npmjs.com/) package called [AngularFire 2](https://www.npmjs.com/package/angularfire2), which is the official library for Firebase and Angular 2.
+In this 5 part tutorial series we will build a simple chat app. It will require the user to login and then they can chat with anyone else in the room. We will use [Firebase 3](https://firebase.google.com) as our db and as our authentication. We will use a [NPM](https://www.npmjs.com/) package called [AngularFire 2](https://www.npmjs.com/package/angularfire2), which is the official library for Firebase and Angular 2.
 
-The finished chat app that we are building can be seen live [**here**](https://fir-crud-93710.firebaseapp.com/). The code for all 3 parts is on my [Github](https://github.com/HuddleHouse/firebase-crud), each part of this tutorial is a new branch on that repository.
+The finished chat app that we are building can be seen live [**here**](https://fir-crud-93710.firebaseapp.com/). The code for all of the parts is on my [Github](https://github.com/HuddleHouse/firebase-crud), each part of this tutorial is a new branch on that repository.
 
 ![Our Angular 2 Firebase App](final.png)
 
@@ -35,7 +35,11 @@ The code for **part 2** can be found [here](https://github.com/HuddleHouse/fireb
 
 The code for **part 3** can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-3).
 
-**Part 4:** COMING SOON Adding the ability for a user to edit or delete any messages that they have sent. 
+[**Part 4:**](https://progblog.io/Angular-2-Firebase-Tutorial-Part-4-Adding-Email-Password-Authentication/) We add Email/Password user authentication using Firebase.
+
+The code for **part 4** can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-4).
+
+**Part 5:** COMING SOON Adding the ability for a user to edit or delete any messages that they have sent.
 
 In this section we will be adding a basic chat to the app. It will sync asynchronously with Firebase's Realtime Database. 
 

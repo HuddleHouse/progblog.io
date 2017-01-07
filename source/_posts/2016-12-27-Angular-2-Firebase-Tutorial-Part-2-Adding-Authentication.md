@@ -15,10 +15,10 @@ tags:
 date: 2016-12-27 17:23:52
 ---
 ## Introduction
-This tutorial is **part 2** of a 4 part series. If you would like to see **part 1** you can go to it [here](https://progblog.io/Angular-2-Firebase-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/).
+This tutorial is **part 2** of a 5 part series. If you would like to see **part 1** you can go to it [here](https://progblog.io/Angular-2-Firebase-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/).
 
 
-The finished chat app that we are building can be seen live [**here**](https://fir-crud-93710.firebaseapp.com/). The code for all 3 parts is on my [Github](https://github.com/HuddleHouse/firebase-crud), each part of this tutorial is a new branch on that repository.
+The finished chat app that we are building can be seen live [**here**](https://fir-crud-93710.firebaseapp.com/). The code for all of the parts is on my [Github](https://github.com/HuddleHouse/firebase-crud), each part of this tutorial is a new branch on that repository.
 
 ### Sections
 
@@ -34,7 +34,11 @@ The code for **part 2** can be found [here](https://github.com/HuddleHouse/fireb
 
 The code for **part 3** can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-3).
 
-**Part 4:** COMING SOON Adding the ability for a user to edit or delete any messages that they have sent. 
+[**Part 4:**](https://progblog.io/Angular-2-Firebase-Tutorial-Part-4-Adding-Email-Password-Authentication/) We add Email/Password user authentication using Firebase.
+
+The code for **part 4** can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-4).
+
+**Part 5:** COMING SOON Adding the ability for a user to edit or delete any messages that they have sent.
 
 
 ### Getting Started

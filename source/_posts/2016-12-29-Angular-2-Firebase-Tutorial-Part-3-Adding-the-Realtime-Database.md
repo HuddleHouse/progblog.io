@@ -15,9 +15,9 @@ tags:
 date: 2016-12-29 23:05:04
 ---
 ## Introduction
-This tutorial is **part 3** of a 4 part series. If you would like to see **part 2** you can go to it [here](https://progblog.io/Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication).
+This tutorial is **part 3** of a 5 part series. If you would like to see **part 2** you can go to it [here](https://progblog.io/Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication).
 
-The finished chat app that we are building can be seen live [**here**](https://fir-crud-93710.firebaseapp.com/). The code for all 3 parts is on my [Github](https://github.com/HuddleHouse/firebase-crud), each part of this tutorial is a new branch on that repository.
+The finished chat app that we are building can be seen live [**here**](https://fir-crud-93710.firebaseapp.com/). The code for all of the parts is on my [Github](https://github.com/HuddleHouse/firebase-crud), each part of this tutorial is a new branch on that repository.
 
 ### Sections
 
@@ -33,9 +33,11 @@ The code for **part 2** can be found [here](https://github.com/HuddleHouse/fireb
 
 The code for **part 3** can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-3).
 
-**Part 4:** COMING SOON Adding the ability for a user to edit or delete any messages that they have sent. 
+[**Part 4:**](https://progblog.io/Angular-2-Firebase-Tutorial-Part-4-Adding-Email-Password-Authentication/) We add Email/Password user authentication using Firebase.
 
-In this section we will be adding a basic chat to the app. It will sync asynchronously with Firebase's Realtime Database. 
+The code for **part 4** can be found [here](https://github.com/HuddleHouse/firebase-crud/tree/firebase-crud-part-4).
+
+**Part 5:** COMING SOON Adding the ability for a user to edit or delete any messages that they have sent.
 
 ![Using Firebase's Realtime Database we sync data in real time](chat.png)
 
@@ -431,4 +433,4 @@ At this point we have a working messaging app that uses Firebase to Authenticate
 
 If you have any questions please don't hesitate to ask me! :)
 
-Oh yeah I almost forgot. I do realize the title says it is a CRUD and we are not updating or deleting anything form our Database. I will be adding a 4th part to this series so that users can edit their own messages or delete them.
+Oh yeah I almost forgot. I do realize the title says it is a CRUD and we are not updating or deleting anything form our Database. I will be adding a 5th part to this series so that users can edit their own messages or delete them.
