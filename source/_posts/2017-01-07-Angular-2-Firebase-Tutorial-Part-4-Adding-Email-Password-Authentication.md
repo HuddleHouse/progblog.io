@@ -51,7 +51,7 @@ In this part of the series we will add Email/Password Authentication using Fireb
 ## Enable Email/Password Auth in Firebase
 We need to log into [Firebase](https://firebase.google.com) and go to Authentication -> Sign-In Method and enable Email/Password Authentication.
 
-![Succefully enabling Email/Password Authentication in Firebase](email/password.png)
+![Succesfully enabling Email/Password Authentication in Firebase](email:password.png)
 
 ## Generate the Registration Page
 
