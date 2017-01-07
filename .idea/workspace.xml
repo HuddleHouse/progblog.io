@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88de919e-e005-4a01-a927-b3af3ad5e55e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_posts/2017-01-07-Angular-2-Firebase-Tutorial-Part-4-Adding-Email-Password-Authentication.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication.md" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database.md" afterPath="$PROJECT_DIR$/source/_posts/2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/2017-01-07-Angular-2-Firebase-Tutorial-Part-4-Adding-Email-Password-Authentication.md" afterPath="$PROJECT_DIR$/source/_posts/2017-01-07-Angular-2-Firebase-Tutorial-Part-4-Adding-Email-Password-Authentication.md" />
     </list>
     <ignored path="prog-blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,8 +49,8 @@
       <file leaf-file-name="2017-01-07-Angular-2-Firebase-Tutorial-Part-4-Adding-Email-Password-Authentication.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/_posts/2017-01-07-Angular-2-Firebase-Tutorial-Part-4-Adding-Email-Password-Authentication.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="59" lean-forward="false" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -119,10 +116,10 @@
         <option value="$PROJECT_DIR$/themes/gstylez/source/css/main.css" />
         <option value="$PROJECT_DIR$/themes/gstylez/layout/partials/footer.ejs" />
         <option value="$PROJECT_DIR$/source/_posts/2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Firebase-Realtime-Database.md" />
-        <option value="$PROJECT_DIR$/source/_posts/2017-01-07-Angular-2-Firebase-Tutorial-Part-4-Adding-Email-Password-Authentication.md" />
         <option value="$PROJECT_DIR$/source/_posts/2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database.md" />
         <option value="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication.md" />
         <option value="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2017-01-07-Angular-2-Firebase-Tutorial-Part-4-Adding-Email-Password-Authentication.md" />
       </list>
     </option>
   </component>
@@ -336,14 +333,7 @@
       <workItem from="1483381830652" duration="123000" />
       <workItem from="1483662283064" duration="11000" />
       <workItem from="1483802424864" duration="2037000" />
-      <workItem from="1483814213784" duration="346000" />
-    </task>
-    <task id="LOCAL-00009" summary="New post.">
-      <created>1475596469103</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1475596469103</updated>
+      <workItem from="1483814213784" duration="395000" />
     </task>
     <task id="LOCAL-00010" summary="New post.">
       <created>1475700245033</created>
@@ -681,22 +671,29 @@
       <option name="project" value="LOCAL" />
       <updated>1483802604085</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="Adding Clicky analytics">
+      <created>1483814572590</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1483814572590</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60704000" />
+    <option name="totallyTimeSpent" value="60753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24894515" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28841788" sideWeight="0.50428265" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32832617" sideWeight="0.496788" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28755364" sideWeight="0.49571735" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28755364" sideWeight="0.49571735" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1058,8 +1055,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/2017-01-07-Angular-2-Firebase-Tutorial-Part-4-Adding-Email-Password-Authentication.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="17">
+          <caret line="1" column="59" lean-forward="false" selection-start-line="1" selection-start-column="59" selection-end-line="1" selection-end-column="59" />
           <folding />
         </state>
       </provider>

@@ -1,5 +1,5 @@
 ---
-title: 'Angular 2 Firebase Tutorial Part 4: Adding Email/Password Authentication'
+title: 'Angular 2 Firebase Tutorial Part 4: Adding Email / Password Authentication'
 toc: true
 author: Matt Huddleston
 author_img: /img/matt.jpg
