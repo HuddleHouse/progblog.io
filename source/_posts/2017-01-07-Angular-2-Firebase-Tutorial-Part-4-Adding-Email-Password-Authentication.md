@@ -161,7 +161,7 @@ export class RegistrationPageComponent {
 
 ```
 
-> Note: If we catch an error we set a variable named error to the value of the erro
+> Note: If we catch an error we set a variable named error to the value of the error
 
 ### registration-page.component.html
 
@@ -234,7 +234,7 @@ Now we have a registration form that registers a new user using Firebase and log
 
 ## Update Login Page
 
-Lastly, we need to add a way for a registered user to log in using thier email and password.
+Lastly, we need to add a way for a registered user to log in using their email and password.
 
 ### login-page.component.ts
 Lets first add a `loginWithEmail` function to `login-page.component.ts`. For clarity I also change my `login` function to `loginWithGoogle`:
@@ -350,7 +350,7 @@ constructor(public afService: AF, private router: Router) {
   }
 ```
 
-We now have two ways for a user to be able to login. If they are are using Google we need to get thier name from `auth.gooogle` and `auth.auth` otherwise.
+We now have two ways for a user to be able to login. If they are are using Google we need to get their name from `auth.gooogle` and `auth.auth` otherwise.
 
 ## Conclusion
 
