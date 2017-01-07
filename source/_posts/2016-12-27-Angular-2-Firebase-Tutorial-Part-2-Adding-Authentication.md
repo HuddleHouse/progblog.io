@@ -367,6 +367,9 @@ export class AppComponent {
         else {
           console.log("Successfully Logged in.");
           this.isLoggedIn = true;
+          // UPDATE: I forgot this at first. Without it when a user is logged in and goes directly to /login
+          // the user did not get redirected to the home page.
+          this.router.navigate(['']);
         }
       }
     );
