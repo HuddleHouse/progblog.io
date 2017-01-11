@@ -307,7 +307,7 @@ We need to add a place to display an error message if there is one. We also need
 
     <button class="login loginmodal-submit" (click)="loginWithGoogle()">Login With Google</button>
     <hr>
-    <a (click)="router.navigate(['register'])" style="cursor: pointer;">Register Now</a>
+    <a [routerLink]="['/register']" style="cursor: pointer;">Register Now</a>
   </div>
 </div>
 ```
