@@ -6,7 +6,7 @@ header [role="progressbar"][aria-busy="true"] {
   padding-top: 4px;
   width: 100%;
   z-index: 999;
-  background-color: #159756;
+  background-color: #559262;
   -webkit-animation: preloader-background linear 3.5s infinite;
           animation: preloader-background linear 3.5s infinite;
 }
@@ -17,7 +17,7 @@ header [role="progressbar"][aria-busy="true"]::before, header [role="progressbar
   z-index: 2;
   width: 0;
   height: 4px;
-  background: #afa;
+  background: #81cd91;
   -webkit-animation: preloader-front linear 3.5s infinite;
           animation: preloader-front linear 3.5s infinite;
   content: '';

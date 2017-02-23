@@ -16,7 +16,7 @@ aside ul {
 }
 
 body {
-    color: #404040;
+    color: rgba(71, 63, 78, 1);
     font:300 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-shadow: 0px 0px 1px rgba(50,50,50,0.2);
     margin: 0;
@@ -57,7 +57,7 @@ body {
     margin: 0;
     overflow: hidden;
     color: #FFFFFF;
-    background-color: #4184f3;
+    background-color: #559262;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -66,6 +66,11 @@ body.nav-active{
     overflow: hidden;
 }
 
+h3.widget-title {
+    padding-left: 5px;
+    border-bottom: 2px solid rgba(71, 63, 78, 0.1);
+    line-height: 0.8em;
+}
 
 h1,h2,h3,h4,h5,h6{
     position: relative;
@@ -113,8 +118,14 @@ h6 {
 }
 
 a {
-    color: #3c80f6;
+    color: #559262;
     text-decoration: none;
+    -webkit-transition: color 0.2s ease-in;
+    transition: color 0.2s ease-in;
+}
+
+a:hover {
+    color: #81cd91;
 }
 
 /*nav*/
@@ -138,15 +149,15 @@ a {
 }
 
 .nav-wrapper {
-    background-color: #4184f3;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    background-color: #559262;
+    box-shadow: 0 2px 5px 0 color: rgba(71, 63, 78, 0.26);
     position: relative;
     z-index: 20000;
 }
 
 nav {
-    /*background-color: #4184f3;*/
-    color: #fff;
+    /*background-color: #559262;*/
+    color: #fdfdfd;
     height: 75px;
     display: flex;
     justify-content: space-between;
@@ -154,14 +165,14 @@ nav {
 }
 
 nav a {
-    color: #fff;
+    color: #fdfdfd;
 }
 
 .image-caption{
     text-align: center;
     display: block;
     margin: 10px;
-    color: rgba(0,0,0,.54);
+    color: rgba(71, 63, 78, .54);
     font-size: .8em;
 }
 
@@ -173,7 +184,7 @@ nav a {
     left: 0;
     right: 0;
     top: 0;
-    /*background-color: #4184f3;*/
+    /*background-color: #559262;*/
     background-color: transparent;
     margin: 0;
     padding: 56px 0 0 0;
@@ -228,12 +239,12 @@ nav a {
 }
 
 .menu-wrapper li a:hover {
-    /*background: #3D5AFE;*/
+    /*background: #addfb7;*/
 }
 
 .menu-wrapper a {
     text-decoration: none;
-    color: #fff;
+    color: #fdfdfd;
     padding: 15px;
 }
 
@@ -261,7 +272,7 @@ nav a {
 }
 
 .main {
-    background: #fff;
+    background: #fdfdfd;
     flex: 3 1 auto;
     min-height: 320px;
     /*max-width: 875px;*/
@@ -292,7 +303,7 @@ aside {
 }
 
 article{
-    background: #fff;
+    background: #fdfdfd;
     /*box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);*/
     padding: 15px;
     /*margin: 25px 0;*/
@@ -310,20 +321,20 @@ article img{
 article code,article tt{
     padding: .1em .2em;
     margin: 0 5px;
-    background-color: rgba(0,0,0,.04);
+    background-color: color: rgba(71, 63, 78, .04);
     border-radius: 3px;
 }
 article blockquote{
     padding: 0 15px;
     color: #777;
-    border-left: 4px solid #4184f3;
+    border-left: 4px solid #559262;
     margin: 0 -15px;
 }
 article hr{
     height: 4px;
     padding: 0;
     margin: 16px 0;
-    background-color: #e7e7e7;
+    background-color: #fdfdfd;
     border: 0 none;
 }
 figure.highlight .gutter{
@@ -332,7 +343,7 @@ figure.highlight .gutter{
 
 /*index cards*/
 .post-header{
-    /*background-color: #4184f3;*/
+    /*background-color: #559262;*/
     /*padding: 15px;*/
 }
 .post-header.with-cover{
@@ -342,7 +353,7 @@ figure.highlight .gutter{
     background-position: center;
     position: relative;
     padding-bottom: 45%;
-    background-color: #4184f3;
+    background-color: #559262;
     display: block;
 }
 .post-header .post-title{
@@ -352,10 +363,10 @@ figure.highlight .gutter{
 
 }
 .post-header.with-cover{
-    background-color: #4184f3;
+    background-color: #559262;
 }
 .post-header.with-cover .post-title{
-    color: #fff;
+    color: #fdfdfd;
     position: absolute;
     bottom: 0;
     /*margin: 0;*/
@@ -373,11 +384,11 @@ figure.highlight .gutter{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#4a000000',GradientType=0 ); /* IE6-9 */
 }
 .post-header.with-cover .post-title span{
-    color: #fff;
+    color: #fdfdfd;
     padding: 0 10px;
 }
 .post-header .post-title span{
-    color: #404040;
+    color: rgba(71, 63, 78, 1);
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
@@ -394,7 +405,7 @@ figure.highlight .gutter{
     align-items: center;
 }
 .post-date{
-    color: rgba(0,0,0,0.54);
+    color: rgba(71, 63, 78, 1);
 }
 .read-more{
     float: right;
@@ -437,16 +448,16 @@ article blockquote ol,article blockquote ul{
     /*transform        : translate3d(0, 0, 0)!important;*/
 }
 .tocify li a{
-    color: rgba(0,0,0,0.54);
+    color: rgba(71, 63, 78, 1);
 }
 .tocify li{
     border-left: 2px solid transparent;
 }
 .tocify li.tocify-focus{
-    border-left: 2px solid #3c80f6;
+    border-left: 2px solid #559262;
 }
 .tocify li.tocify-focus a{
-    color:#3c80f6;
+    color:#559262;
 }
 .pager{
     display: flex;
@@ -578,7 +589,7 @@ aside {
     margin: 30px 15px;
     text-align: center;
     font-size: .8em;
-    color: rgba(0,0,0,0.54);
+    color: rgba(71, 63, 78, 1);
 }
 .footer p{
     margin: 0;
@@ -603,14 +614,16 @@ aside {
 
 
 .banner {
-    background: url(https://static.teamtreehouse.com/assets/views/landing_pages/green-illustration-bg-022313732e5aadb8e1b090f89557c859.svg) #5fcf80;
+    background-image: linear-gradient(rgba(253,253,253,0.5), rgba(253,253,253,0.5)), url(https://firebasestorage.googleapis.com/v0/b/progblog-3f789.appspot.com/o/progblog-header.svg?alt=media&token=2331a2ee-ffde-4307-8537-58564e4162ea); #fdfdfd;
+    background-size: 400px;
+    background-attachment: fixed;
     height: 440px;
     margin-top: -36px;
 }
 
 .hero-title {
     text-align: center;
-    color: #fff;
+    color: rgba(71, 63, 78, 1);
 }
 .menus li a.wave.waves-effect {
     padding-top: 26px;
@@ -634,6 +647,9 @@ figure.highlight.sh {
     max-width: 85px;
 }
 
+#home-header {
+    background: #fdfdfd;
+}
 
 
 
