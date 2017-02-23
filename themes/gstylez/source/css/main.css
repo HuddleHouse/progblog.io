@@ -105,11 +105,21 @@ h1 {
     line-height: 1.2;
 }
 
+.content .main .pb-article h1.post-title {
+    border: none;
+    line-height: 1.2em;
+}
+
+.content h1.post-title {
+    border-bottom: 1px solid #e3e3e3;
+    line-height: 0.25em;
+    padding-left: 10px;
+}
+
 h2 {
     padding-bottom: .3em;
     font-size: 1.75em;
-    line-height: 1.225;
-    border-bottom: 1px solid #eee
+    line-height: 0.25em;
 }
 
 h3 {
