@@ -15,6 +15,21 @@ aside ul {
     padding-top: 20px;
 }
 
+.nav-logo {
+    background-image: url(/img/logo-fdfdfd.png);
+    height: 55px;
+    width: 55px;
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transition: background 0.2s ease-in;
+    transition: background 0.2s ease-in;
+}
+
+#logo:hover .nav-logo {
+    background-image: url(/img/logo-md-green.png);
+}
+
 body {
     color: rgba(71, 63, 78, 1);
     font:300 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -122,6 +137,7 @@ a {
     text-decoration: none;
     -webkit-transition: color 0.2s ease-in;
     transition: color 0.2s ease-in;
+    font-weight: 500;
 }
 
 a:hover {
@@ -232,7 +248,7 @@ nav a {
 
 .menu-wrapper li a {
     font-size: 5vw;
-    font-weight: 300;
+    font-weight: 500;
     display: inline-block;
     width: 100%;
     transition: background .4s ease-out;
@@ -564,7 +580,7 @@ figure.highlight figcaption{
     }
     .menu-wrapper li a {
         font-size: inherit;
-        font-weight: inherit;
+        font-weight: 500;
         height: 100%;
         /*line-height: 56px;*/
         /*padding: 0;*/
