@@ -30,6 +30,10 @@ aside ul {
     background-image: url(/img/logo-md-green.png);
 }
 
+.pb-article:nth-child(even) {
+    background-color: #e3e3e3;
+}
+
 body {
     color: rgba(71, 63, 78, 1);
     font:300 16px/1.5 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -503,15 +507,25 @@ article blockquote ol,article blockquote ul{
     display: flex;
     justify-content: center;
     height: 46px;
+    border-bottom: 1px solid #e3e3e3;
 }
 .pagination .page-number{
     flex: 1 1 auto;
     text-align: center;
 }
-.pagination .page-number,.pagination a{
+.pagination .page-number, .pagination a{
     display: inline-block;
     height: 100%;
+    width: 100%;
     padding: 10px;
+}
+
+.pagination .next, .pagination .prev{
+    width: 125px;
+}
+
+.pagination a.page-number:hover, .pagination .next:hover, .pagination .prev:hover {
+    background-color: #e3e3e3;
 }
 
 figure.highlight figcaption{
