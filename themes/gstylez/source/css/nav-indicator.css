@@ -3,7 +3,7 @@
 .nav-indicator {
     -webkit-animation-timing-function: cubic-bezier(0.55, 0, 0.1, 1);
     animation-timing-function: cubic-bezier(0.55, 0, 0.1, 1);
-    background: #fff;
+    background: #fdfdfd;
     bottom: 0;
     height: 2px;
     opacity: 0;

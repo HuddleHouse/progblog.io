@@ -1,13 +1,13 @@
 <script>
     $(function() {
-        $('#home-header').append('<section class="banner"> <div class="hero-title"> <h1 style="top: 100px;"> Programing Tutorials &amp; Resources </h1> <h4 id="banner-description" style="top: 100px; width: 50%; margin-left: 25%;">Learn with us! As Full Stack developers we are constantly learning new skills. Each week we take what we learned and put it here.</h4> </div> </section>');
+        $('#home-header').append('<section class="banner"> <div class="hero-title"> <h1 style="top: 100px;"> Programing Tutorials &amp; Resources </h1> <h4 id="banner-description" style="top: 100px; width: 50%; margin-left: 25%;">Learn with us! As Full Stack developers we are constantly learning new skills, and this blog is an outlet to share our findings.</h4> </div> </section>');
     });
 </script>
 <div class="row">
   <div class="main index" style="width: 50% !important;">
 
   <% page.posts.each(function(post, i){ %>
-    <article>
+    <article class="pb-article">
       <a href="<%- url_for(post.path) %>" >
         <%if(post.cover){%>
           <header class="post-header with-cover" style="background-image:url('<%- config.root+post.path+post.cover%>')" >
@@ -57,10 +57,10 @@
   <%- partial('partials/pagination') %>
 
   </div>
-  <%if(theme.sidebar&&theme.widgets.length){%>
-    <aside>
-        <a class="img" target="_blank" href="https://www.subtome.com/#/subscribe?feeds=http://feeds.feedburner.com/progblog/BLNZ" onclick="this.href = subscribeNow(this.href,'SubToMe');return true"><img src="https://www.subtome.com/subtome-feedburner.png" alt="Subscribe with SubToMe"></a>
-        <%- partial('partials/widgets') %>
-    </aside>
-  <%}%>
+  <%//if(theme.sidebar&&theme.widgets.length){%>
+    <!--<aside>-->
+        <!--<a class="img" target="_blank" href="https://www.subtome.com/#/subscribe?feeds=http://feeds.feedburner.com/progblog/BLNZ" onclick="this.href = subscribeNow(this.href,'SubToMe');return true"><img src="https://www.subtome.com/subtome-feedburner.png" alt="Subscribe with SubToMe"></a>-->
+        <!--<%- partial('partials/widgets') %>-->
+    <!--</aside>-->
+  <%//}%>
 </div>
