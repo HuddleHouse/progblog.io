@@ -2,22 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88de919e-e005-4a01-a927-b3af3ad5e55e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/gstylez/source/css/popup.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/gstylez/source/css/transition.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/gstylez/source/img/copy.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/gstylez/source/js/activate-clipboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/gstylez/source/js/clipboard.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/gstylez/source/js/popup.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/gstylez/source/js/transition.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/2016-09-30-Custom-Form-Validation-in-Symfony-3-1-4-Symfony-Form-Component.md" afterPath="$PROJECT_DIR$/source/_posts/2016-09-30-Custom-Form-Validation-in-Symfony-3-1-4-Symfony-Form-Component.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/2016-10-01-How-to-Free-SSL-Certificate-that-Renews-Automatically.md" afterPath="$PROJECT_DIR$/source/_posts/2016-10-01-How-to-Free-SSL-Certificate-that-Renews-Automatically.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/2016-10-02-Symfony-3-1-Up-and-Running-in-60-Seconds.md" afterPath="$PROJECT_DIR$/source/_posts/2016-10-02-Symfony-3-1-Up-and-Running-in-60-Seconds.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/2016-10-02-Symfony-3-1-and-FOSUserbundle-Setting-Up.md" afterPath="$PROJECT_DIR$/source/_posts/2016-10-02-Symfony-3-1-and-FOSUserbundle-Setting-Up.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/2016-10-07-How-to-Store-a-Symfony-Project-on-Github.md" afterPath="$PROJECT_DIR$/source/_posts/2016-10-07-How-to-Store-a-Symfony-Project-on-Github.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/2016-10-09-Symfony-3-1-and-FOSUserBundle-Overriding-the-Default-Templates.md" afterPath="$PROJECT_DIR$/source/_posts/2016-10-09-Symfony-3-1-and-FOSUserBundle-Overriding-the-Default-Templates.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/2016-10-17-Angular-2-Tutorial-Create-an-App-With-Angular-CLI-and-Angular-Material-Design.md" afterPath="$PROJECT_DIR$/source/_posts/2016-10-17-Angular-2-Tutorial-Create-an-App-With-Angular-CLI-and-Angular-Material-Design.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/2016-10-30-How-to-Globally-install-Composer-on-OS-X.md" afterPath="$PROJECT_DIR$/source/_posts/2016-10-30-How-to-Globally-install-Composer-on-OS-X.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/gstylez/layout/index.ejs" afterPath="$PROJECT_DIR$/themes/gstylez/layout/index.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/gstylez/layout/partials/head.ejs" afterPath="$PROJECT_DIR$/themes/gstylez/layout/partials/head.ejs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/gstylez/layout/post.ejs" afterPath="$PROJECT_DIR$/themes/gstylez/layout/post.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/2016-12-17-How-to-deploy-a-Flask-App-to-Heroku.md" afterPath="$PROJECT_DIR$/source/_posts/2016-12-17-How-to-deploy-a-Flask-App-to-Heroku.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication.md" afterPath="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database.md" afterPath="$PROJECT_DIR$/source/_posts/2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/_posts/2017-01-07-Angular-2-Firebase-Tutorial-Part-4-Adding-Email-Password-Authentication.md" afterPath="$PROJECT_DIR$/source/_posts/2017-01-07-Angular-2-Firebase-Tutorial-Part-4-Adding-Email-Password-Authentication.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/gstylez/source/css/highlight.light.css" afterPath="$PROJECT_DIR$/themes/gstylez/source/css/highlight.light.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/gstylez/source/css/main.css" afterPath="$PROJECT_DIR$/themes/gstylez/source/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/gstylez/source/css/prism-customize.css" afterPath="$PROJECT_DIR$/themes/gstylez/source/css/prism-customize.css" />
     </list>
     <ignored path="prog-blog.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,107 +40,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/index.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding>
-                <marker date="1488048531000" expanded="true" signature="123:134" ph="..." />
-                <marker date="1488048531000" expanded="true" signature="158:163" ph="&amp;" />
-                <marker date="1488048531000" expanded="true" signature="215:256" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/gstylez/source/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="748" column="0" lean-forward="true" selection-start-line="748" selection-start-column="0" selection-end-line="748" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prism-customize.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/themes/gstylez/source/css/prism-customize.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="highlight.light.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/gstylez/source/css/highlight.light.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/partials/head.ejs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="52" column="39" lean-forward="false" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2016-10-30-How-to-Globally-install-Composer-on-OS-X.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-30-How-to-Globally-install-Composer-on-OS-X.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="444">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.ejs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/post.ejs">
+      <file leaf-file-name="2016-12-17-How-to-deploy-a-Flask-App-to-Heroku.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/2016-12-17-How-to-deploy-a-Flask-App-to-Heroku.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
-              <caret line="133" column="31" lean-forward="false" selection-start-line="133" selection-start-column="31" selection-end-line="133" selection-end-column="31" />
+            <state relative-caret-position="189">
+              <caret line="79" column="21" lean-forward="true" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="transition.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/gstylez/source/js/transition.min.js">
+      <file leaf-file-name="2016-12-27-Angular-2-Firebase-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="9" column="13070" lean-forward="false" selection-start-line="9" selection-start-column="13070" selection-end-line="9" selection-end-column="13070" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="transition.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/gstylez/source/css/transition.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="32166" lean-forward="false" selection-start-line="8" selection-start-column="32166" selection-end-line="8" selection-end-column="32166" />
+            <state relative-caret-position="476">
+              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="popup.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/themes/gstylez/source/css/popup.css">
+      <file leaf-file-name="2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="8" column="11058" lean-forward="false" selection-start-line="8" selection-start-column="11058" selection-end-line="8" selection-end-column="11058" />
+            <state relative-caret-position="332">
+              <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="470" column="230" lean-forward="true" selection-start-line="470" selection-start-column="230" selection-end-line="470" selection-end-column="230" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-01-07-Angular-2-Firebase-Tutorial-Part-4-Adding-Email-Password-Authentication.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_posts/2017-01-07-Angular-2-Firebase-Tutorial-Part-4-Adding-Email-Password-Authentication.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="381" column="136" lean-forward="true" selection-start-line="381" selection-start-column="136" selection-end-line="381" selection-end-column="136" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-10-02-Symfony-3-1-Up-and-Running-in-60-Seconds.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-02-Symfony-3-1-Up-and-Running-in-60-Seconds.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-10-07-How-to-Store-a-Symfony-Project-on-Github.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-07-How-to-Store-a-Symfony-Project-on-Github.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="41" column="6" lean-forward="false" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-10-09-Symfony-3-1-and-FOSUserBundle-Overriding-the-Default-Templates.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-09-Symfony-3-1-and-FOSUserBundle-Overriding-the-Default-Templates.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="283" column="0" lean-forward="true" selection-start-line="283" selection-start-column="0" selection-end-line="283" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-10-17-Angular-2-Tutorial-Create-an-App-With-Angular-CLI-and-Angular-Material-Design.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-17-Angular-2-Tutorial-Create-an-App-With-Angular-CLI-and-Angular-Material-Design.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="423" column="0" lean-forward="true" selection-start-line="423" selection-start-column="0" selection-end-line="423" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -167,14 +161,23 @@
       <find>trans</find>
       <find>:hover</find>
       <find>a</find>
-      <find>highlight</find>
       <find>figure</find>
       <find>#F</find>
       <find>POST-CON</find>
+      <find>highlight</find>
+      <find>right</find>
+      <find>code</find>
+      <find>```php</find>
+      <find>css</find>
+      <find>```</find>
     </findStrings>
     <replaceStrings>
       <replace>559262</replace>
       <replace>&quot;src&quot;: &quot;\/img\/</replace>
+      <replace>&lt;button class=&quot;right copy btn&quot; data-clipboard-target=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-clipboard&quot;&gt;&lt;/i&gt;&lt;/button&gt; &lt;div id=''&gt;</replace>
+      <replace>```</replace>
+      <replace>&lt;button class=&quot;right copy btn&quot; data-clipboard-target=&quot;#cli&quot;&gt;&lt;i class=&quot;fa fa-clipboard&quot;&gt;&lt;/i&gt;&lt;/button&gt; &lt;div id='cli'&gt;</replace>
+      <replace>&lt;button class=&quot;right copy btn&quot; data-clipboard-target=&quot;#cli&quot;&gt;&lt;i class=&quot;fa fa-clipboard&quot;&gt;&lt;/i&gt;&lt;/button&gt; &lt;div id='cli'&gt; ```</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -188,35 +191,23 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/source/_posts/2016-10-07-Symfony-3-1-and-FOSUserbundle-Override-Default-Templates.md" />
-        <option value="$PROJECT_DIR$/source/_posts/2016-10-09-Symfony-3-1-and-FOSUserBundle-Overriding-the-Default-Templates.md" />
-        <option value="$PROJECT_DIR$/source/_posts/2016-10-17-Angular2-Up-and-Running-with-Angular2-CLI-and-Angular-Material.md" />
-        <option value="$PROJECT_DIR$/source/_posts/2016-10-17-Angular2-Tutorial-Up-and-Running-with-Angular2-CLI-and-Angular-Material.md" />
         <option value="$PROJECT_DIR$/source/_posts/2016-10-17-Angular-2-Tutorial-Create-an-App-With-Angular-CLI-using-Angular-Material.md" />
         <option value="$PROJECT_DIR$/source/_posts/2016-10-17-Angular-2-Tutorial-Create-an-App-With-Angular-CLI-and-Angular-Material.md" />
-        <option value="$PROJECT_DIR$/source/_posts/2016-10-02-Symfony-3-1-and-FOSUserbundle-Setting-Up.md" />
         <option value="$PROJECT_DIR$/themes/gstylez/layout/partials/title_list.ejs" />
         <option value="$PROJECT_DIR$/themes/gstylez/layout/partials/pagination.ejs" />
         <option value="$PROJECT_DIR$/source/about/index.md" />
         <option value="$PROJECT_DIR$/themes/gstylez/source/css/jquery.tocify.css" />
         <option value="$PROJECT_DIR$/themes/gstylez/layout/layout.ejs" />
         <option value="$PROJECT_DIR$/themes/gstylez/source/js/main.js" />
-        <option value="$PROJECT_DIR$/source/_posts/2016-10-07-How-to-Store-a-Symfony-Project-on-Github.md" />
         <option value="$PROJECT_DIR$/themes/gstylez/source/js/ads.js" />
         <option value="$PROJECT_DIR$/themes/gstylez/layout/partials/analytics.ejs" />
         <option value="$PROJECT_DIR$/themes/gstylez/layout/partials/comments.ejs" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/source/_posts/2016-10-17-Create-an-App-With-Angular-CLI-and-Angular-Material-Design.md" />
-        <option value="$PROJECT_DIR$/source/_posts/2016-12-17-How-to-deploy-a-Flask-App-to-Heroku.md" />
         <option value="$PROJECT_DIR$/source/_posts/2016-10-17-Angular-2-Tutorial-Create-an-App-With-Angular-Material-Design-and-Angular-CLI.md" />
-        <option value="$PROJECT_DIR$/source/_posts/2016-10-17-Angular-2-Tutorial-Create-an-App-With-Angular-CLI-and-Angular-Material-Design.md" />
         <option value="$PROJECT_DIR$/themes/gstylez/layout/partials/footer.ejs" />
         <option value="$PROJECT_DIR$/source/_posts/2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Firebase-Realtime-Database.md" />
-        <option value="$PROJECT_DIR$/source/_posts/2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database.md" />
-        <option value="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication.md" />
-        <option value="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md" />
-        <option value="$PROJECT_DIR$/source/_posts/2017-01-07-Angular-2-Firebase-Tutorial-Part-4-Adding-Email-Password-Authentication.md" />
         <option value="$PROJECT_DIR$/themes/gstylez/layout/partials/theme.ejs" />
         <option value="$PROJECT_DIR$/themes/gstylez/source/css/nav-icon.css" />
         <option value="$PROJECT_DIR$/themes/gstylez/source/css/nav-indicator.css" />
@@ -235,10 +226,22 @@
         <option value="$PROJECT_DIR$/themes/gstylez/source/css/transition.min.css" />
         <option value="$PROJECT_DIR$/themes/gstylez/layout/partials/head.ejs" />
         <option value="$PROJECT_DIR$/themes/gstylez/layout/post.ejs" />
-        <option value="$PROJECT_DIR$/source/_posts/2016-10-30-How-to-Globally-install-Composer-on-OS-X.md" />
+        <option value="$PROJECT_DIR$/themes/gstylez/source/css/prism-customize.css" />
         <option value="$PROJECT_DIR$/themes/gstylez/source/css/highlight.light.css" />
         <option value="$PROJECT_DIR$/themes/gstylez/source/css/main.css" />
-        <option value="$PROJECT_DIR$/themes/gstylez/source/css/prism-customize.css" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-10-30-How-to-Globally-install-Composer-on-OS-X.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-09-30-Custom-Form-Validation-in-Symfony-3-1-4-Symfony-Form-Component.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-10-01-How-to-Free-SSL-Certificate-that-Renews-Automatically.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-10-02-Symfony-3-1-and-FOSUserbundle-Setting-Up.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-10-02-Symfony-3-1-Up-and-Running-in-60-Seconds.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-10-07-How-to-Store-a-Symfony-Project-on-Github.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-10-09-Symfony-3-1-and-FOSUserBundle-Overriding-the-Default-Templates.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-10-17-Angular-2-Tutorial-Create-an-App-With-Angular-CLI-and-Angular-Material-Design.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-12-17-How-to-deploy-a-Flask-App-to-Heroku.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2017-01-07-Angular-2-Firebase-Tutorial-Part-4-Adding-Email-Password-Authentication.md" />
       </list>
     </option>
   </component>
@@ -402,15 +405,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gstylez" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="source" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -424,19 +419,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
+              <option name="myItemId" value="source" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gstylez" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="partials" />
+              <option name="myItemId" value="_posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -698,14 +685,7 @@
       <workItem from="1487895280304" duration="3000" />
       <workItem from="1487895296752" duration="899000" />
       <workItem from="1487896412806" duration="1603000" />
-      <workItem from="1488045546866" duration="5625000" />
-    </task>
-    <task id="LOCAL-00017" summary="New post.">
-      <created>1475872951024</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1475872951024</updated>
+      <workItem from="1488045546866" duration="8679000" />
     </task>
     <task id="LOCAL-00018" summary="New post.">
       <created>1475872996888</created>
@@ -1043,11 +1023,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487893329699</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="UPDATING SOME STYLEZ">
+      <created>1488053541988</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1488053541988</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84668000" />
+    <option name="totallyTimeSpent" value="87722000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
@@ -1106,63 +1093,14 @@
     <MESSAGE value="final edits" />
     <MESSAGE value="final edits v2 - added pagination stylings and favicons, app icons" />
     <MESSAGE value="final edits v2 - new site post and other styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="final edits v2 - new site post and other styles" />
+    <MESSAGE value="UPDATING SOME STYLEZ" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATING SOME STYLEZ" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/img/boo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scaffolds/draft.md" />
-    <entry file="file://$PROJECT_DIR$/source/about/index.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scaffolds/page.md" />
-    <entry file="file://$PROJECT_DIR$/scaffolds/matt_post.md" />
-    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/partials/widgets.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/gstylez/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/gstylez/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/lib/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="101" column="13" lean-forward="false" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/partials/theme.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-76">
@@ -1267,9 +1205,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-01-How-to-Free-SSL-Certificate-that-Renews-Automatically.md" />
-    <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-09-Symfony-3-1-and-FOSUserBundle-Overriding-the-Default-Templates.md" />
-    <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-17-Angular-2-Tutorial-Create-an-App-With-Angular-CLI-and-Angular-Material-Design.md" />
     <entry file="file://$PROJECT_DIR$/source/_posts/2017-02-23-Redesign.md" />
     <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/page.ejs">
       <provider selected="true" editor-type-id="text-editor">
@@ -1399,34 +1334,138 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-30-How-to-Globally-install-Composer-on-OS-X.md">
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/css/prism-customize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/css/highlight.light.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="272">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/gstylez/source/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="748" column="0" lean-forward="true" selection-start-line="748" selection-start-column="0" selection-end-line="748" selection-end-column="0" />
+        <state relative-caret-position="286">
+          <caret line="439" column="21" lean-forward="false" selection-start-line="439" selection-start-column="21" selection-end-line="439" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/css/prism-customize.css">
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/css/highlight.light.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        <state relative-caret-position="226">
+          <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-09-26-Angular2-Typscript-First-Look.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-09-30-Custom-Form-Validation-in-Symfony-3-1-4-Symfony-Form-Component.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="103" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-01-How-to-Free-SSL-Certificate-that-Renews-Automatically.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="43" column="16" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-02-Symfony-3-1-and-FOSUserbundle-Setting-Up.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="205" column="13" lean-forward="false" selection-start-line="205" selection-start-column="13" selection-end-line="205" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-02-Symfony-3-1-Up-and-Running-in-60-Seconds.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-07-How-to-Store-a-Symfony-Project-on-Github.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="41" column="6" lean-forward="false" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-09-Symfony-3-1-and-FOSUserBundle-Overriding-the-Default-Templates.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="283" column="0" lean-forward="true" selection-start-line="283" selection-start-column="0" selection-end-line="283" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-17-Angular-2-Tutorial-Create-an-App-With-Angular-CLI-and-Angular-Material-Design.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="423" column="0" lean-forward="true" selection-start-line="423" selection-start-column="0" selection-end-line="423" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-30-How-to-Globally-install-Composer-on-OS-X.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-12-17-How-to-deploy-a-Flask-App-to-Heroku.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="79" column="21" lean-forward="true" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="470" column="230" lean-forward="true" selection-start-line="470" selection-start-column="230" selection-end-line="470" selection-end-column="230" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2017-01-07-Angular-2-Firebase-Tutorial-Part-4-Adding-Email-Password-Authentication.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="381" column="136" lean-forward="true" selection-start-line="381" selection-start-column="136" selection-end-line="381" selection-end-column="136" />
           <folding />
         </state>
       </provider>

@@ -377,7 +377,6 @@ figure.highlight .gutter{
 }
 
 figure.highlight {
-    border-left: 4px solid #559262;
 }
 
 /*index cards*/
@@ -438,6 +437,7 @@ figure.highlight {
     float: right;
     margin-right: 0;
     margin-left: .25em;
+    margin-top: 38px;
 }
 
 .highlight {

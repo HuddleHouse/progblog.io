@@ -61,6 +61,8 @@ Using the Angular CLI interface generate the RegistrationPageComponent.
 
 Now that the page is generated that users will register on we need to add a route in `app.module.ts` to point to it.
 
+<button class="right copy btn" data-clipboard-target="#cli"><i class="fa fa-clipboard"></i></button>
+<div id='cli'>
 ```
 // src/app/app.module.ts
 
@@ -70,10 +72,13 @@ const routes: Routes = [
   { path: 'register', component: RegistrationPageComponent}
 ];
 ```
+</div>
 
 ## Update the Service
 Now that we have a Registration page generated we need to add three functions to `src/providers/af.ts`:
 
+<button class="right copy btn" data-clipboard-target="#cli1"><i class="fa fa-clipboard"></i></button>
+<div id='cli1'>
 ```
 /**
    * Calls the AngularFire2 service to register a new user
@@ -119,11 +124,14 @@ Now that we have a Registration page generated we need to add three functions to
       });
   }
 ```
+</div>
 
 ## Update the Registration Page
 ### registration-page.component.ts
 Lets first update `registration-page.component.ts`. We need to inject `Router` and our `AF` provider into the component. We also build a `register` function that will register a user using our new created service functions. Upon success we use the `Router` to send them to the home page.
 
+<button class="right copy btn" data-clipboard-target="#cli2"><i class="fa fa-clipboard"></i></button>
+<div id='cli2'>
 ```
 // src/app/registration-page/registration-page.component.ts
 
@@ -160,6 +168,7 @@ export class RegistrationPageComponent {
 }
 
 ```
+</div>
 
 > Note: If we catch an error we set a variable named error to the value of the error
 
@@ -167,6 +176,8 @@ export class RegistrationPageComponent {
 
 Now lets add the registration form to the screen. Add this code to `registration-page.component.ts`:
 
+<button class="right copy btn" data-clipboard-target="#cli3"><i class="fa fa-clipboard"></i></button>
+<div id='cli3'>
 ```
 // src/app/registration-page/registration-page.component.html
 
@@ -194,6 +205,7 @@ Now lets add the registration form to the screen. Add this code to `registration
 </div>
 
 ```
+</div>
 
 > Note: The top portion of this code will not show unless we run into and error.
 
@@ -203,6 +215,8 @@ We create local variables on our form by using `#name`, `#email` and `#password`
 
 This is easy part but lets add some css to make this look better.
 
+<button class="right copy btn" data-clipboard-target="#cli"><i class="fa fa-clipboard"></i></button>
+<div id='cli4'>
 ```
 // src/app/registration-page/registration-page.component.css
 
@@ -224,8 +238,9 @@ This is easy part but lets add some css to make this look better.
   font-family: roboto;
 }
 ```
+</div>
 
-Check toverify that the registered user is showing up in your Firebase Console:
+Check to verify that the registered user is showing up in your Firebase Console:
 
 ![We now see the user data is showing up in the console](database.png)
 
@@ -239,6 +254,8 @@ Lastly, we need to add a way for a registered user to log in using their email a
 ### login-page.component.ts
 Lets first add a `loginWithEmail` function to `login-page.component.ts`. For clarity I also change my `login` function to `loginWithGoogle`:
 
+<button class="right copy btn" data-clipboard-target="#cli5"><i class="fa fa-clipboard"></i></button>
+<div id='cli5'>
 ```
 // src/app/component/login-page/login-page.component.ts
 
@@ -278,10 +295,13 @@ export class LoginPageComponent {
   }
 }
 ```
+</div>
 
 ### login-page.component.html
 We need to add a place to display an error message if there is one. We also need to add the form to take in the Email/Password of the user.
 
+<button class="right copy btn" data-clipboard-target="#cli6"><i class="fa fa-clipboard"></i></button>
+<div id='cli6'>
 ```
 // src/app/component/login-page/login-page.component.html
 
@@ -311,10 +331,14 @@ We need to add a place to display an error message if there is one. We also need
   </div>
 </div>
 ```
+</div>
+
 We once again use local variables to transport the Email and Password to Firebase.
 
 The final thing we need to do is update the constructor in `app.component.ts`.
 
+<button class="right copy btn" data-clipboard-target="#cli11"><i class="fa fa-clipboard"></i></button>
+<div id='cli11'>
 ```
 // src/app/app.component.ts
 
@@ -349,6 +373,7 @@ constructor(public afService: AF, private router: Router) {
     );
   }
 ```
+</div>
 
 We now have two ways for a user to be able to login. If they are are using Google we need to get their name from `auth.gooogle` and `auth.auth` otherwise.
 

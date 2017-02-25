@@ -33,13 +33,18 @@ I will also be using a SQL database, but you could use a different type if you w
 
 Tell composer to require the bundle:
 
+<button class="right copy btn" data-clipboard-target="#ssl"><i class="fa fa-clipboard"></i></button>
+<div id='ssl'>
 ```php
 composer require friendsofsymfony/user-bundle "~2.0@dev"
 ```
+</div>
 
 Open up `app/AppKernal.php` and make sure to add the bundle to the `$bundles` array.
 
-```php
+<button class="right copy btn" data-clipboard-target="#kernal"><i class="fa fa-clipboard"></i></button>
+<div id='kernal'>
+```
 <?php
 // app/AppKernel.php
 
@@ -52,11 +57,15 @@ public function registerBundles()
     );
 }
 ```
+</div>
+
 ### Configure `app/security.yml`
 
 Now lets configure the `app/security.yml` file. Below is a minimal example of the configuration necessary to use the FOSUserBundle in your application:
 
-```php
+<button class="right copy btn" data-clipboard-target="#security"><i class="fa fa-clipboard"></i></button>
+<div id='security'>
+```
 # app/config/security.yml
 security:
     encoders:
@@ -88,6 +97,8 @@ security:
         - { path: ^/resetting, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/admin/, role: ROLE_ADMIN }
 ```
+</div>
+
 
 Under the providers section, you are making the bundle's packaged user provider service available via the alias fos_userbundle. 
 
@@ -99,7 +110,9 @@ The `access_control` section can be customized to restric access to certain page
 
 Navigate to `src/AppBundle` and create a folder called Entity. In that folder create a file called `User.php` and put this in it. 
 
-```php
+<button class="right copy btn" data-clipboard-target="#entity"><i class="fa fa-clipboard"></i></button>
+<div id='entity'>
+```
 <?php
 // src/AppBundle/Entity/User.php
 
@@ -128,19 +141,24 @@ class User extends BaseUser
     }
 }
 ```
+</div>
+
 ### Configure FOSUserBundle
 
 Now we need to configure the bundle to work with the needs of our application.
 
 Add this to your `app/config/config.yml`
 
-```php
+<button class="right copy btn" data-clipboard-target="#config"><i class="fa fa-clipboard"></i></button>
+<div id='config'>
+```
 # app/config/config.yml
 fos_user:
     db_driver: orm # other valid values are 'mongodb', 'couchdb' and 'propel'
     firewall_name: main
     user_class: AppBundle\Entity\User
 ```
+</div>
 
 We tell FOSUserBundle that we will be using the Doctrine ORM for our db driver, the 	`main` firewall we just made and the `User` class we just made.
 
@@ -148,17 +166,24 @@ We tell FOSUserBundle that we will be using the Doctrine ORM for our db driver, 
 
 To get all of the pages that FOSUserBundle comes with (login, registration etc.) we must tell our application where those routes are. We do this by editing the `app/config/routing.yml` file and add this to the bottom:
 
-```php
+<button class="right copy btn" data-clipboard-target="#right"><i class="fa fa-clipboard"></i></button>
+<div id='right'>
+```
 # app/config/routing.yml
 fos_user:
     resource: "@FOSUserBundle/Resources/config/routing/all.xml"
 ```
+</div>
 
 Symfony offers a lot of functionality through the command line. One of the commands is:
 
+<button class="right copy btn" data-clipboard-target="#symfony"><i class="fa fa-clipboard"></i></button>
+<div id='symfony'>
 ```php
 php bin/console debug:router
 ```
+</div>
+
 This will list all available routes. You should see all the routes we just imported show up.
 
 ![List Routes](debug-route.png)
@@ -177,9 +202,12 @@ Then you have to update your `app/parameters.yml` with the db credentials.
 
 Once that is set up we can open the terminal to the root directory of our project and run this command to update the db schema:
 
+<button class="right copy btn" data-clipboard-target="#root"><i class="fa fa-clipboard"></i></button>
+<div id='root'>
 ```php
 php bin/console doctrine:schema:update --force
 ```
+</div>
 
 ![Schema Successfully Update](update.png)
 

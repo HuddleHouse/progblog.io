@@ -47,9 +47,12 @@ Installation should be as simple as installing NodeJS and npm comes with with.
 
 To install the Angular 2 CLI run this command: 
 
-```php
+<button class="right copy btn" data-clipboard-target="#cli"><i class="fa fa-clipboard"></i></button>
+<div id='cli'>
+```
 npm install -g angular-cli
 ```
+</div>
 
 > The first time running this command I had trouble getting it to work. I had a package installed globally that conflicted. If you have issues, post your error message in the comments and I'll try to help!
 
@@ -57,9 +60,12 @@ We now can use the `ng` command in a terminal window. To create a new project we
 
 > Note: Creating the new project can take a few minutes on a slower computer.
 
-```php
+<button class="right copy btn" data-clipboard-target="#cli2"><i class="fa fa-clipboard"></i></button>
+<div id='cli2'>
+```
 ng new my-project-name
 ```
+</div>
 
 ![Terminal window after creating our new Angular 2 Material Design Demo project.](created-new.png)
 
@@ -69,10 +75,14 @@ A new project will be made inside of the folder `my-project-name`.
 
 To start the dev server and see the live product run these commands:
 
-```php
+<button class="right copy btn" data-clipboard-target="#cli3"><i class="fa fa-clipboard"></i></button>
+<div id='cli3'>
+```
 cd my-project-name
 ng serve
 ```
+</div>
+
 > My favorite feature of using `ng serve` is that it watches your files for changes. Upon noticing them it automatically reloads the browser for you!
 
 Open your browser and point it to `http://localhost:4200`. You should see:
@@ -83,9 +93,12 @@ Open your browser and point it to `http://localhost:4200`. You should see:
 
 To add Material Design for Angular 2 to our project run the command:
 
-```php
+<button class="right copy btn" data-clipboard-target="#cli11"><i class="fa fa-clipboard"></i></button>
+<div id='cli11'>
+```
 npm install --save @angular/material
 ```
+</div>
 
 > Note: `--save` adds this to our `package.json` file for us. 
 
@@ -93,7 +106,9 @@ If you run into errors running the above command make sure you have the correct 
 
 Next in our `src/app/app.module.ts` file we need to import the `MaterialModule` at the top. Then we need to register it for root in the imports section. After doing this my file looks like this:
 
-```php
+<button class="right copy btn" data-clipboard-target="#cli12"><i class="fa fa-clipboard"></i></button>
+<div id='cli12'>
+```
 // src/app/app.module.ts
 
 import { BrowserModule } from '@angular/platform-browser';
@@ -119,6 +134,7 @@ import { AppComponent } from './app.component';
 })
 export class AppModule { }
 ```
+</div>
 
 Check that everything is still working in the broswer with no errors.
 
@@ -126,17 +142,22 @@ Check that everything is still working in the broswer with no errors.
 
 Add this to the header of your `index.html` file to make Material Icons available.
 
-```php
+<button class="right copy btn" data-clipboard-target="#cliw"><i class="fa fa-clipboard"></i></button>
+<div id='cliw'>
+```
 // app/index.html
 
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 ```
+</div>
 
 Create the file `src/assets/custom-theme.scss`. In this file we can write Angular 2 Material that will override the default styles. 
 
 All available colors are found in `node_modules/@angular/material/core/theming/_palette.scss`. Use these ase a reference to choose the colors for your app.
 
-```php
+<button class="right copy btn" data-clipboard-target="#clip"><i class="fa fa-clipboard"></i></button>
+<div id='clip'>
+```
 // src/assets/custom-theme.scss
 
 @import '~@angular/material/core/theming/all-theme';
@@ -159,12 +180,15 @@ $theme: md-light-theme($primary, $accent);
   @include angular-material-theme($dark-theme);
 }
 ```
+</div>
 
 > Note: Do not change the contents of any file in `node_modules` they will get over written on the next npm install.
 
 Angular CLI has a built in SCSS compiler. All we have to do is let it know that the new SCSS file is there. We do this by editing our `angular-cli.json` file. We want to edit the `styles` section to look like this:
 
-```php
+<button class="right copy btn" data-clipboard-target="#clis"><i class="fa fa-clipboard"></i></button>
+<div id='clis'>
+```
 // package.json
 
 "styles": [
@@ -172,6 +196,7 @@ Angular CLI has a built in SCSS compiler. All we have to do is let it know that 
      	 "./assets/custom-theme.scss"
       ],
 ```
+</div>
 
 ## Add HTML and add CSS
 
@@ -179,7 +204,9 @@ If we look at the Github for [Material Design for Angular 2](https://github.com/
 
 To add a sample of available options add this to `app.component.html`:
 
-```php
+<button class="right copy btn" data-clipboard-target="#cli34"><i class="fa fa-clipboard"></i></button>
+<div id='cli34'>
+```
 // src/app/app.component.html
 
 <md-sidenav-layout [class.m2app-dark]="isDarkTheme">
@@ -288,6 +315,7 @@ To add a sample of available options add this to `app.component.html`:
   <button md-fab><md-icon>check circle</md-icon></button>
 </span>
 ```
+</div>
 
 Lastly, update `app.component.css` and `app/styles.css`.
 
@@ -295,7 +323,9 @@ Lastly, update `app.component.css` and `app/styles.css`.
 
 Here is `app.component.css`:
 
-```php
+<button class="right copy btn" data-clipboard-target="#clisd"><i class="fa fa-clipboard"></i></button>
+<div id='clisd'>
+```
 // src/app/app.component.css
 
 .app-toolbar-filler {
@@ -376,10 +406,13 @@ body {
   margin: 20px;
 }
 ```
+</div>
 
 Here is `app/styles.css`:
 
-```php
+<button class="right copy btn" data-clipboard-target="#clisd"><i class="fa fa-clipboard"></i></button>
+<div id='clisd'>
+```
 // app/styles.css
 
 body {
@@ -387,6 +420,7 @@ body {
 }
 
 ```
+</div>
 
 Once you have added all of that you should be able to run `ng serve` and see the final product! You can also press the `TOGGLE DARK THEME` button and see the dark theme.
 

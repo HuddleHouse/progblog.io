@@ -63,26 +63,37 @@ Installation should be as simple as installing NodeJS and npm comes with with.
 
 Once you have npm installed from the command line you can install Angular CLI by typing:
 
+<button class="right copy btn" data-clipboard-target="#cli"><i class="fa fa-clipboard"></i></button>
+<div id='cli'>
 ```
-#Note: the -g flag installs this globally on your computer
 npm install -g angular-cli
 ```
+</div>
+
+> Note: the -g flag installs this globally on your computer
 
 For AngularFire2 to work we will also need to install `typings` and `typescript`.
 
+<button class="right copy btn" data-clipboard-target="#cli2"><i class="fa fa-clipboard"></i></button>
+<div id='cli2'>
 ```
 npm install -g typings
 npm install -g typescript
 ```
+</div>
+
 > Note: You might have to run the above commands as an administrator ex: `sudo npm install -g angular-cli`.
 
 ## Using Angular CLI to create a new project
 
 Creating a blank app with the Angular CLI is easy. In a terminal type in this command:
 
+<button class="right copy btn" data-clipboard-target="#cli3"><i class="fa fa-clipboard"></i></button>
+<div id='cli3'>
 ```
 ng new firebase-crud
 ```
+</div>
 
 > Note: `firebase-crud` is the name of the folder the project will be created in. Name this whatever makes sense to you. 
 
@@ -90,10 +101,14 @@ ng new firebase-crud
 
 To view that our app is working lets display it.
 
+<button class="right copy btn" data-clipboard-target="#cli4"><i class="fa fa-clipboard"></i></button>
+<div id='cli4'>
 ```
 cd firebase-crud
 ng serve
 ```
+</div>
+
 Our app should now be visible from a browser on the default url `http://localhost:4200`
 
 > Note: To change the port that is used you can type `ng serve -p 4000`
@@ -104,6 +119,8 @@ Our app should now be visible from a browser on the default url `http://localhos
 
 If we open our app in a text editor, I use [Webstorm](https://www.jetbrains.com/webstorm/) which is an excellent editor IMO. The first thing we need to do is add the Bootstrap cdn to our app. We can do this by opening up `app/index.html` and edit it so that it looks like this:
 
+<button class="right copy btn" data-clipboard-target="#cli5"><i class="fa fa-clipboard"></i></button>
+<div id='cli5'>
 ```
 <!doctype html>
 <html>
@@ -121,10 +138,14 @@ If we open our app in a text editor, I use [Webstorm](https://www.jetbrains.com/
 </body>
 </html>
 ```
+</div>
+
 > Note: Bootstrap has an Angular 2 extension called [ng-bootstrap](https://ng-bootstrap.github.io/#/home). It adds Angular 2 components, but for our purposes we do not need them. 
 
 Now lets add a navbar in `src/app/app.component.html` to make our app feel a little more polished.
 
+<button class="right copy btn" data-clipboard-target="#cli6"><i class="fa fa-clipboard"></i></button>
+<div id='cli6'>
 ```
 <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -135,6 +156,7 @@ Now lets add a navbar in `src/app/app.component.html` to make our app feel a lit
   </div>
 </nav>
 ```
+</div>
 
 ## Install AngularFire2
 
@@ -148,14 +170,19 @@ The next thing that we need to do is add AngularFire2 to our project. Before we 
 
 Now that we have a Firebase Project created run the following command from inside of your project:
 
+<button class="right copy btn" data-clipboard-target="#cli6"><i class="fa fa-clipboard"></i></button>
+<div id='cli6'>
 ```
 npm install firebase angularfire2 --save
 ```
+</div>
 
 ### Setup @NgModule
 
 Open `src/app/app.module.ts`, inject the Firebase providers and add your app specific Firebase configuration.
 
+<button class="right copy btn" data-clipboard-target="#cli7"><i class="fa fa-clipboard"></i></button>
+<div id='cli7'>
 ```
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -181,6 +208,8 @@ export const firebaseConfig = {
 })
 export class AppModule {}
 ```
+</div>
+
 Your Firebase credentials can be found in the Firebase console. When you log in, click `Add Firebase to your Web App` and your credentials will be there. 
 
 ![In the Firebase console we can get our Credentials by clicking add Firebase to your web app](addToWebApp.png)

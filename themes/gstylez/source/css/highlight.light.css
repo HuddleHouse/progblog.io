@@ -42,7 +42,7 @@ figure.highlight {
   /*border: 1px solid color-border;*/
   /*padding: 7px 15px;*/
   /*border-radius: 2px;*/
-  text-shadow: 0 0 1px #fff;
+  /*text-shadow: 0 0 1px #fff;*/
   line-height: 1.6;
   overflow: auto;
   position: relative;
@@ -76,9 +76,8 @@ figure.highlight .gutter {
   text-align: right;
 }
 figure.highlight .code {
-  padding-left: 15px;
-  border-left: 1px solid #eee;
-  color: #666;
+  font-size: 16px;
+  font-weight: 600;
 }
 figure.highlight .line {
   height: 20px;

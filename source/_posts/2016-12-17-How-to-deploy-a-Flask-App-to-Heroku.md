@@ -26,15 +26,20 @@ You will need Flask, [gunicorn](http://gunicorn.org/), a [Heroku](https://www.he
 
 Using [pip](https://pypi.python.org/pypi/pip), Python's recommended tool for installing packages you can install them using:
 
+<button class="right copy btn" data-clipboard-target="#cli"><i class="fa fa-clipboard"></i></button>
+<div id='cli'>
 ```
 pip install flask gunicorn
 ```
+</div>
 
 To install the HerokuCLI go [here](https://devcenter.heroku.com/articles/heroku-cli). On a Mac it is effortless, as they have an OS X Installer.
 
 ## Step 1: Create a simple Flask App
 We need to have a working Flask app so that we have something to push to Heroku. Lets make a simple one right now. In a new folder create a file called `app.py` and put the following code inside of it:
 
+<button class="right copy btn" data-clipboard-target="#cli2"><i class="fa fa-clipboard"></i></button>
+<div id='cli2'>
 ```
 // ./app.py
 from flask import Flask
@@ -48,6 +53,7 @@ def index():
 if __name__ == "__main__":
 	app.run()
 ```
+</div>
 
 ## Step 2: List Python Dependencies
 We need to list the dependencies that are required for the Heroku environtment. To list them we can run `pip freeze` from a terminal window:
@@ -56,18 +62,24 @@ We need to list the dependencies that are required for the Heroku environtment. 
 
 We need to put those dependencies in a file called `requirements.txt`. We can do that with one command:
 
+<button class="right copy btn" data-clipboard-target="#cli3"><i class="fa fa-clipboard"></i></button>
+<div id='cli3'>
 ```
 pip freeze > requirements.txt
 ```
+</div>
 
 ## Step 3: Create Procfile
 The last thing that we need is a [Procfile](https://devcenter.heroku.com/articles/procfile). In it's simplest form you put one process per line that you want to be ran on your Heroku environment. 
 
 In our case we want to run our Flask application and we will use gunicorn to do this. Create a file named `Procfile` and put the following in it:
 
+<button class="right copy btn" data-clipboard-target="#cli4"><i class="fa fa-clipboard"></i></button>
+<div id='cli4'>
 ```
 web: gunicorn app:app
 ```
+</div>
 
 We can verify that our application works by running `python app.py` and then go to `127.0.0.1:5000` in the browser to see it in action:
 

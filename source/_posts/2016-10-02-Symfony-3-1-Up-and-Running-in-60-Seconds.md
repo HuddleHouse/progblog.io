@@ -27,9 +27,12 @@ Open PHPStorm and choose to Create a New Project. On the left select a Symfony p
 
 Once that has finished open the the Terminal in PHPStorm and run this command to start the development servers:
 
+<button class="right copy btn" data-clipboard-target="#phpstorm"><i class="fa fa-clipboard"></i></button>
+<div id='phpstorm'>
 ```php
 php bin/console server:run
 ```
+</div>
 
 ![Start the servers](command.png)
 <br>

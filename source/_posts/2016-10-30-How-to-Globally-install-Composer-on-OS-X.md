@@ -32,8 +32,11 @@ Type `composer` into the terminal and you should see this:
 
 ## OS X 10.10
 
+<button class="right copy btn" data-clipboard-target="#linux2"><i class="fa fa-clipboard"></i></button>
+<div id='linux2'>
 ```
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/bin --filename=composer  
 ```
+</div>
 
 Now you should be able to use composer globally by typing `composer` in the terminal.

@@ -42,7 +42,9 @@ Here is what part of my form looks like. If a User has `Retailer` checked they c
  
 To start lets set up our `validate` function inside of the User Entity.
 
-```php
+<button class="right copy btn" data-clipboard-target="#validate"><i class="fa fa-clipboard"></i></button>
+<div id='validate'>
+```
 // src/AppBundle/Entity/User.php
 namespace AppBundle\Entity;
 
@@ -60,13 +62,15 @@ class User
     }
 }
 ```
-
+</div>
 
 Now we have that set up, we can check our data to see if it matches our specefic criteria. If it does not we trigger an error. 
 
 > Note: In the code at `->atPath('user_channels')` that is reffering to the name of the element that was declared on the UserFormType class, that has incorrect data. 
 
-```php
+<button class="right copy btn" data-clipboard-target="#user"><i class="fa fa-clipboard"></i></button>
+<div id='user'>
+```
 // src/AppBundle/Entity/User.php
 
     /**
@@ -86,6 +90,7 @@ Now we have that set up, we can check our data to see if it matches our specefic
         }
     }
 ```
+</div>
 
 This code checks to see if the User had the role Retailer added, if so it counts the number of channels they are in. If it is more than one then it sends an error back to the screen and does not allow the form tobe submitted. 
 
@@ -95,6 +100,8 @@ To display the error to the user you have to add a place to show the errors, it 
 
 In your view add this before your form:
 
+<button class="right copy btn" data-clipboard-target="#form"><i class="fa fa-clipboard"></i></button>
+<div id='form'>
 ```php
 	{% if not form.vars.valid %}
         <div class="row">
@@ -106,6 +113,7 @@ In your view add this before your form:
         </div>
     {% endif %}
 ```
+</div>
 
 This is what my error looks like: 
 
