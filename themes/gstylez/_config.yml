@@ -4,10 +4,11 @@ menu:
   archives: /archives
   about: /about
   rss: http://feeds.feedburner.com/progblog/BLNZ
+  Subscribe: /#
 
 
 # Miscelaneous
-favicon: img/favicon.ico
+#favicon: img/favicon.ico
 
 show_post_category: true
 show_post_tags: true

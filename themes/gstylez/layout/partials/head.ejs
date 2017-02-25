@@ -43,7 +43,17 @@
             <meta name="msapplication-TileImage" content="<%- url_for('img/ms-icon-144x144.png') %>">
             <meta name="theme-color" content="#559262">
 
-            <%- css('css/highlight.light') %>
+    <style type="text/css">
+        #mc_embed_signup input.email {
+            width: auto!important;
+        }
+        #mc_embed_signup{background:#fdfdfd; clear:left; width:100%;}
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="<%- url_for('css/jquery.modal.min.css') %>" type="text/css" media="screen" />
+    <%- css('css/highlight.light') %>
             <%- css('css/prism-customize') %>
             <%- css('css/nav-icon') %>
             <%- css('css/waves.min') %>
