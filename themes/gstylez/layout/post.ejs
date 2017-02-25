@@ -125,5 +125,33 @@
             js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=747752418734492";
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
+
+        var clipboard = new Clipboard('.btn');
+        clipboard.on('success', function(e) {
+            e.clearSelection();
+            $(e.trigger)
+                .popup({
+                    on: "manual",
+                    content: "Copied!",
+                    exclusive: true,
+                    position: 'top right',
+                    variation: 'mini',
+                    inline: true,
+                    delay: {
+                        show: 50,
+                        hide: 0
+                    }
+                })
+                .popup('show');
+
+            setTimeout(function(){
+                $(e.trigger)
+                    .popup('hide');
+            }, 500);
+        });
+        clipboard.on('error', function(e) {
+            console.error('Action:', e.action);
+            console.error('Trigger:', e.trigger);
+        });
     </script>
 </div>

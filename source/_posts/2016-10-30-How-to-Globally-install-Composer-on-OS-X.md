@@ -19,17 +19,20 @@ This can be very useful when setting up a project or adding dependencies to a pr
 Throughout my programming career I have Google'd `How to install composer globally` and always search for the way to do it in one terminal command. Then the next time I need it that site is no longer there. So this post is for me so I no longer have to look for it!
 
 ## OS X 10.11
-
-```php
+<button class="right copy btn" data-clipboard-target="#linux"><i class="fa fa-clipboard"></i></button>
+<div id='linux'>
+```
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 ```
+</div>
+
 Type `composer` into the terminal and you should see this:
 
 ![Successfully installed composer](composer.png)
 
 ## OS X 10.10
 
-```php
+```
 curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/bin --filename=composer  
 ```
 
