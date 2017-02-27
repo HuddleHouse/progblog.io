@@ -709,7 +709,7 @@ aside {
 
 
 .banner {
-    background-image: linear-gradient(rgba(253,253,253,0.5), rgba(253,253,253,0.5)), url(https://firebasestorage.googleapis.com/v0/b/progblog-3f789.appspot.com/o/progblog-header.svg?alt=media&token=2331a2ee-ffde-4307-8537-58564e4162ea); #fdfdfd;
+    background-image: linear-gradient(rgba(253,253,253,0.65), rgba(253,253,253,0.6)), url(https://firebasestorage.googleapis.com/v0/b/progblog-3f789.appspot.com/o/progblog-header.svg?alt=media&token=2331a2ee-ffde-4307-8537-58564e4162ea); #fdfdfd;
     background-size: 400px;
     background-attachment: fixed;
     height: 440px;
