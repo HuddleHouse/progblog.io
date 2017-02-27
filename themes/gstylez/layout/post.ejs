@@ -98,10 +98,7 @@
     </div>
     <aside>
         <div id="toc">
-            <div class="Supporter Supporter--size-250x250">
-                <div class="Supporter-placeholder" id="ad3">
-                    <h4>If you are enjoying this blog post, please consider pausing AdBlock on this domain. It helps us cover hosting fees. :)</h4>
-                </div>
+            <div id="sidebar-ad" class="Supporter Supporter--size-250x250">
                 <div>
                     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                     <!-- THE REal top right ********** -->
@@ -153,5 +150,19 @@
             console.error('Action:', e.action);
             console.error('Trigger:', e.trigger);
         });
+
+        var adBlockEnabled = false;
+        var testAd = document.createElement('div');
+        testAd.innerHTML = '&nbsp;';
+        testAd.className = 'adsbox';
+        document.body.appendChild(testAd);
+        window.setTimeout(function() {
+            if (testAd.offsetHeight === 0) {
+                adBlockEnabled = true;
+                document.getElementById('sidebar-ad').style.height = 0;
+            }
+            testAd.remove();
+//            console.log('AdBlock Enabled? ', adBlockEnabled)
+        }, 100);
     </script>
 </div>
