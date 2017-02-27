@@ -59,6 +59,8 @@ There are multiple different ways to develop an app, for me I like to build the 
 
 We need to add a few things to the `AF` service provider. Update `src/providers/af.ts` to look like this:
 
+<button class="right copy btn" data-clipboard-target="#cli"><i class="fa fa-clipboard"></i></button>
+<div id='cli'>
 ```
 // src/providers/af.ts
 
@@ -109,6 +111,7 @@ export class AF {
   }
 }
 ```
+</div>
 
 There are a few things worth noting in this chunk of code. In the constructor we added `this.messages = this.af.database.list('messages');` this creates an AngularFire2 reference to our Firebase Database so we can read/write from it. We also added places to hold the `displayName` and `email` of our user.
 
@@ -124,6 +127,8 @@ When we save a message to the database we are storing the `message`, `displayNam
 
 The best way to do this would be to set them in our authentication subscriber. This is located in the constructor in `src/app/app.component.ts`. It subscribes to any change in the authenticated user. When the user logs out, this subscription sends us to the login screen. Update the constructor to look like this: 
 
+<button class="right copy btn" data-clipboard-target="#cli1"><i class="fa fa-clipboard"></i></button>
+<div id='cli1'>
 ```
 // src/app/app.component.ts
 
@@ -151,12 +156,16 @@ constructor(public afService: AF, private router: Router) {
     );
   }
 ```
+</div>
+
 When the user is logged in we set the `displayName` and `email` that are stored in our service provider.
 
 ## Update the Home Page Component
 
 Before we add the HTML we are going to use, lets add some stuff to `home-page.component.ts`. We need to add access to the Service Provider. Update the code to look like this: 
 
+<button class="right copy btn" data-clipboard-target="#cli"><i class="fa fa-clipboard"></i></button>
+<div id='cli2'>
 ```
 // src/app/home-page/home-page.component.ts
 
@@ -180,6 +189,7 @@ export class HomePageComponent implements OnInit {
   ngOnInit() {}
 }
 ```
+</div>
 
 AngularFire2 synchronizes data as lists using the `FirebaseListObservable` object. We point that to the `messages` reference we made in our service provider. We also add a variable called `newMessage`. We will use a two way binding to the input field so it will have the value of the new message that has been typed.
 
@@ -187,6 +197,8 @@ AngularFire2 synchronizes data as lists using the `FirebaseListObservable` objec
 
 In order for that two way binding to work we need to add `FormsModule` to the imports section of `app.module.ts` or we will get a gnarly error later:
 
+<button class="right copy btn" data-clipboard-target="#cli3"><i class="fa fa-clipboard"></i></button>
+<div id='cli3'>
 ```
 // src/app/app.module.ts
 
@@ -202,11 +214,14 @@ import {FormsModule} from "@angular/forms";
   ...
 })
 ```
+</div>
 
 ## Adding the HTML and CSS
 
 Lets first add the CSS that will style our Message system to `home-page.component.css`:
 
+<button class="right copy btn" data-clipboard-target="#cli4"><i class="fa fa-clipboard"></i></button>
+<div id='cli4'>
 ```
 // src/app/home-page/home-page.component.css
 
@@ -315,9 +330,12 @@ p {
   border-radius: 4px;
 }
 ```
+</div>
 
 Now we will add the HTML to `home-page.component.html`. A lot is going on in this code. I will attempt to break it down bit by bit by labeling the key points.
 
+<button class="right copy btn" data-clipboard-target="#cli123"><i class="fa fa-clipboard"></i></button>
+<div id='cli123'>
 ```
 // src/app/home-page/home-page.component.html
 
@@ -351,11 +369,14 @@ Now we will add the HTML to `home-page.component.html`. A lot is going on in thi
   </div>
 </div>
 ```
+</div>
 
 *Point 1:* This is where we bind a loop to our messages. Remember that the messages object is a `FirebaseListObservable`. This means it will asynchronously stay current with the db. Any changes to the messages in the database will immediately be reflected here. We have to have to specify this relationship in the loop by adding `async`.
 
 *Point 2:* In the CSS I have classes called `you` and `me`. Which puts the correct css for the chat bubble depending on if it was the active users or not. Using the syntax `[class.you]="isYou(message.email)"` binds the presence of the class `you` to the truthfulness of the function `isYou`. To make both `isYou` and `isMe` work we need to add those functions to `home-page.component.ts`. They return true or false if the email on the message posted matches the email of the current user.
 
+<button class="right copy btn" data-clipboard-target="#cli12"><i class="fa fa-clipboard"></i></button>
+<div id='cli12'>
 ```
 // src/app/home-page/home-page.component.ts
 
@@ -373,6 +394,7 @@ isYou(email) {
       return true;
   }
 ```
+</div>
 
 *Point 3:* We two way bind the input to the textarea to the variable `newMessage` by doing this `[(ngModel)]="newMessage"`. We also want the user to be able to submit their message by hitting enter, so we add the event `keyup.enter` to trigger our `sendMessage` function. We also bind the `click` event on the SEND button to trigger the `sendMessage` function also.
 
@@ -387,6 +409,8 @@ Now that we have a working messaging system there is only one thing left that do
 
 To do this we need to add import `AfterViewChecked`, `ElementRef` and `ViewChild` from the core Angular 2 library. We will also need to make a function that will achieve this. Add this code to 	`home-page.component.ts`:
 
+<button class="right copy btn" data-clipboard-target="#cli14"><i class="fa fa-clipboard"></i></button>
+<div id='cli14'>
 ```
 // src/app/home-page/home-page.component.ts
 
@@ -404,13 +428,22 @@ export class HomePageComponent implements OnInit, AfterViewChecked {
       this.myScrollContainer.nativeElement.scrollTop = this.myScrollContainer.nativeElement.scrollHeight;
     } catch(err) { console.log('Scroll to bottom failed yo!') }
   }
+  
+  // I forgot to add this but thanks for letting me know in the comments so I could update it!
+  sendMessage(){
+    this.afService.sendMessage(this.newMessage);
+    this.newMessage = '';
+  }
 }
 ```
+</div>
 
 We need to add the `ngAfterViewChecked` function bc it gets called after every check of the component's view, which will trigger the `scrollToBottom` function.
 
 We bind an `ElementRef` variable to `myScrollContainer` to the local variable `scrollMe`. We need to add that variable to `home-page.component.html` so that our app knows which div needs to be scrolled.
 
+<button class="right copy btn" data-clipboard-target="#cli55"><i class="fa fa-clipboard"></i></button>
+<div id='cli55'>
 ```
 // src/app/home-page/home-page.component.html
 
@@ -425,6 +458,8 @@ We bind an `ElementRef` variable to `myScrollContainer` to the local variable `s
    </div>
 </div>
 ```
+</div>
+
 Now our messaging system functions how it should!
 
 ## Conclusion

@@ -49,8 +49,9 @@ To override the file `vender/friendsofsymfony/user-bundle/Resources/views/Securi
  
 This way is slightly more involved, but offers full control over FOSUserBundle. The first thing that we want to do is make `AppBundle` a child of FOSUserBundle. We can achieve that by editing `src/AppBundle/AppBundle.php` to look like this:
 
-```php
-<?php
+<button class="right copy btn" data-clipboard-target="#fos"><i class="fa fa-clipboard"></i></button>
+<div id='fos'>
+```
 // src/AppBundle/AppBundle.php
 
 namespace AppBundle;
@@ -65,6 +66,7 @@ class AppBundle extends Bundle
     }
 }
 ```
+</div>
 
 Now that we have made AppBundle a child of FOSUserBundle we can do the same thing as above, but instead of replacing the filesdd in `app/Resources` we will replace them in `src/AppBundle`. We are not limited to only overriding things in the `Resources` folder! We can also override the controllers or anything else. 
 
@@ -78,9 +80,12 @@ Before we can login we must have a user to be able to login with. FOSUserBundle 
 
 Running the command below will prompt you with a few questions to answer in order to create the new user.
 
+<button class="right copy btn" data-clipboard-target="#will"><i class="fa fa-clipboard"></i></button>
+<div id='will'>
 ```
 php bin/console fos:user:create
 ```
+</div>
 
 ![Creating the user from the FOSUserBundle Command line](created_user.png)
 
@@ -88,7 +93,9 @@ php bin/console fos:user:create
 
 In Symfony we can create a base template which every page can use. On this template it can hold the scaffolding each page requires and also include all the required css and js files. To do this edit the file `app/Resources/views/base.html.twig` to say:
 
-```php
+<button class="right copy btn" data-clipboard-target="#page"><i class="fa fa-clipboard"></i></button>
+<div id='page'>
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -203,6 +210,7 @@ In Symfony we can create a base template which every page can use. On this templ
 </body>
 </html>
 ```
+</div>
 
 This file is very basic. I including some custom styling for the login page. I also included [Bootstrap](http://getbootstrap.com/) and [jQuery](https://jquery.com/). Bootstrap is a responsive HTML framework that comes with a lot of core components.
 
@@ -222,7 +230,9 @@ I personally do not like how FOSUserBundle has a `login.html.twig` and `login_co
 
 Now we should still see the same login form as before. But now lets change the contents of `login.html.twig` to make this login form look awesome:
 
-```php
+<button class="right copy btn" data-clipboard-target="#lets"><i class="fa fa-clipboard"></i></button>
+<div id='lets'>
+```
 {% trans_default_domain 'FOSUserBundle' %}
 {% extends "::base.html.twig" %}
 
@@ -251,6 +261,7 @@ Now we should still see the same login form as before. But now lets change the c
     </form>
 {% endblock fos_user_content %}
 ```
+</div>
 
 This will display the formatted login form!
 
@@ -275,9 +286,12 @@ To logout add `/logout` to the url. This will take us to a blank screen again, b
 
 It is a personal preference of mine that when not logged in it should redirect us to the login screen. So lets make it do that! We can do that by editing our `app/config/security.yml` by adding this line under `access_control`.
 
-```php
+<button class="right copy btn" data-clipboard-target="#pref"><i class="fa fa-clipboard"></i></button>
+<div id='pref'>
+```
 - { path: ^/, role: IS_AUTHENTICATED_FULLY }
 ```
+</div>
 
 This line says that anyone at the root url has to be fully authenticated. Since we have our login provider set to FOSUserBundle it automatically redirects to the login page.
 

@@ -29,6 +29,8 @@ Head over to Github.com and make an account if needed. Once you are logged in, c
 
 Open a terminal and `cd` to the root directory of your Symfony project.
 
+<button class="right copy btn" data-clipboard-target="#symfony"><i class="fa fa-clipboard"></i></button>
+<div id='symfony'>
 ```php
 echo "# Project Name" >> README.md
 git init
@@ -37,6 +39,7 @@ git commit -m "initial commit"
 git remote add origin git@github.com:HuddleHouse/symfony-demo.git //this will be the URL for the repository we just made
 git push -u origin master
 ```
+</div>
 
 On success the terminal will output something like this:
 

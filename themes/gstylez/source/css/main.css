@@ -8,6 +8,9 @@
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
 }
+p {
+    font-weight: 400;
+}
 aside ul {
     display: table;
 }
@@ -105,6 +108,10 @@ h1 {
     line-height: 1.2;
 }
 
+p {
+    font-weight: 400;
+}
+
 .content .main .pb-article h1.post-title {
     border: none;
     line-height: 1.2em;
@@ -112,14 +119,12 @@ h1 {
 
 .content h1.post-title {
     border-bottom: 1px solid #e3e3e3;
-    line-height: 0.25em;
     padding-left: 10px;
 }
 
 h2 {
     padding-bottom: .3em;
     font-size: 1.75em;
-    line-height: 0.25em;
 }
 
 h3 {
@@ -151,7 +156,7 @@ a {
     text-decoration: none;
     -webkit-transition: color 0.2s ease-in;
     transition: color 0.2s ease-in;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 a:hover {
@@ -371,6 +376,9 @@ figure.highlight .gutter{
     padding: 0 5px;
 }
 
+figure.highlight {
+}
+
 /*index cards*/
 .post-header{
     /*background-color: #559262;*/
@@ -392,6 +400,51 @@ figure.highlight .gutter{
     /*padding: 15px;*/
 
 }
+.copy {
+    cursor: pointer;
+    display: inline-block;
+    min-height: 1em;
+    outline: 0;
+    border: none;
+    vertical-align: baseline;
+    background: #e0e1e2;
+    color: rgba(0,0,0,.6);
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    margin: 0 .25em 0 0;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: 700;
+    line-height: 1em;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    border-radius: .28571429rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+    transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
+    will-change: '';
+    padding: .78571429em;
+    -webkit-tap-highlight-color: transparent;
+}
+.copy:hover {
+    box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34,36,38,.15) inset;
+    background: #c6c8c9;
+}
+.right {
+    float: right;
+    margin-right: 0;
+    margin-left: .25em;
+    margin-top: 38px;
+}
+
+.highlight {
+    color: #839496;
+    background: #002b36;
+}
+
 .post-header.with-cover{
     background-color: #559262;
 }
@@ -656,7 +709,7 @@ aside {
 
 
 .banner {
-    background-image: linear-gradient(rgba(253,253,253,0.5), rgba(253,253,253,0.5)), url(https://firebasestorage.googleapis.com/v0/b/progblog-3f789.appspot.com/o/progblog-header.svg?alt=media&token=2331a2ee-ffde-4307-8537-58564e4162ea); #fdfdfd;
+    background-image: linear-gradient(rgba(253,253,253,0.65), rgba(253,253,253,0.6)), url(https://firebasestorage.googleapis.com/v0/b/progblog-3f789.appspot.com/o/progblog-header.svg?alt=media&token=2331a2ee-ffde-4307-8537-58564e4162ea); #fdfdfd;
     background-size: 400px;
     background-attachment: fixed;
     height: 440px;
@@ -692,7 +745,6 @@ figure.highlight.sh {
 #home-header {
     background: #fdfdfd;
 }
-
 
 
 

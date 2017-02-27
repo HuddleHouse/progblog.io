@@ -68,6 +68,8 @@ We can take advantage of the awesome Dependency Injection that Angular 2 has to 
 
 In the `src/app` directory make a new folder called `providers`. Inside of that folder create a file called `af.ts`. Add this to `af.ts`:
 
+<button class="right copy btn" data-clipboard-target="#cli"><i class="fa fa-clipboard"></i></button>
+<div id='cli'>
 ```
 // src/app/providers/af.ts
 import {Injectable} from "@angular/core";
@@ -97,9 +99,12 @@ export class AF {
   }
 }
 ```
+</div>
 
 Here we declared two functions `loginWithGoogle()` and `logout()`, that do precisely what they say. We now need to add our provider to `app.module.ts`:
 
+<button class="right copy btn" data-clipboard-target="#cli2"><i class="fa fa-clipboard"></i></button>
+<div id='cli2'>
 ```
 // src/app/app.module.ts
 
@@ -110,6 +115,7 @@ import {AF} from "../providers/af";
   	providers: [AF]
 })
 ```
+</div>
 
 There is one more thing that we must do inside of the Firebase Console for our login to work. When logged into the Firebase Console click `Authentication` on the side menu. Then at the top click `SIGN-IN METHOD`. In this view we see all the possible ways Firebase allows Authentication to be done. Click on the Google tab and enable it.
 
@@ -119,9 +125,12 @@ There is one more thing that we must do inside of the Firebase Console for our l
 ### Generate the Component using the Angular CLI
 In Angular 2 everything is a Component. Components can be reused throughout the app which is extremely useful. The first thing that we need to have is our basic login page. The Angular CLI has a component generator that comes with it. We can run the following command to generate a `login-page` component:
 
+<button class="right copy btn" data-clipboard-target="#cli3"><i class="fa fa-clipboard"></i></button>
+<div id='cli3'>
 ```
 ng generate component loginPage
 ```
+</div>
 
 Inside `src/app` we now have a folder called `login-page`. This component is already set up with a `.html` file for our HTML, `.ts` file for our "controller", a `.css` file that can be used to style our component and then a `.spec.ts` file that is used for unit testing. 
 
@@ -131,6 +140,8 @@ Inside `src/app` we now have a folder called `login-page`. This component is alr
 
 When using the Angular CLI it automatically adds our new component to `src/app/app.module.ts`. I always double check to make sure it was added along with the Import statement. `app.module.ts` should now have these added to it:
 
+<button class="right copy btn" data-clipboard-target="#cli4"><i class="fa fa-clipboard"></i></button>
+<div id='cli4'>
 ```
 // src/app/app.module.ts
 
@@ -145,10 +156,13 @@ import { LoginPageComponent } from './login-page/login-page.component';
   bootstrap: [ AppComponent ]
 })
 ```
+</div>
 
 ### Update login-page.component.ts
 Now we need to use dependency injection to inject the service provider we just created (AF) and Angular Router in our constructer so that we can use them. We will create a function called `login()` that will be triggered when they click the login button. Inside of that function we will call the login function we just made. On success we will send them to our homepage (which we will create next).
 
+<button class="right copy btn" data-clipboard-target="#cli5"><i class="fa fa-clipboard"></i></button>
+<div id='cli5'>
 ```
 // src/app/login-page/login-page.component.ts
 
@@ -173,10 +187,13 @@ export class LoginPageComponent {
   }
 }
 ```
+</div>
 
 ### Adding the Login HTML and CSS
 Add the following HTML and CSS to the respective files labeled in the comments below:
 
+<button class="right copy btn" data-clipboard-target="#cli6"><i class="fa fa-clipboard"></i></button>
+<div id='cli6'>
 ```
 // src/app/login-page/login-page.component.html
 
@@ -187,8 +204,12 @@ Add the following HTML and CSS to the respective files labeled in the comments b
   </div>
 </div>
 ```
+</div>
+
 Now lets add some CSS to make our login page look better:
 
+<button class="right copy btn" data-clipboard-target="#cli123"><i class="fa fa-clipboard"></i></button>
+<div id='cli123'>
 ```
 // src/app/login-page/login-page.component.css
 
@@ -241,16 +262,23 @@ Now lets add some CSS to make our login page look better:
   transition: opacity ease 0.5s;
 }
 ```
+</div>
 
 ## Create the Homepage Component
 
 We will do this using the Angular CLI again, the same way we created our Login Component.
 
+<button class="right copy btn" data-clipboard-target="#cli7"><i class="fa fa-clipboard"></i></button>
+<div id='cli7'>
 ```
 ng generate component homePage
 ```
+</div>
+
 We also need to verify that our new component was added to `app.module.ts`:
 
+<button class="right copy btn" data-clipboard-target="#cli8"><i class="fa fa-clipboard"></i></button>
+<div id='cli8'>
 ```
 // src/app/app.module.ts
 
@@ -267,9 +295,12 @@ import { HomePageComponent } from './home-page/home-page.component';
   providers: [AF]
 })
 ```
+</div>
 
 We don't need to make any changes (yet) to `home-page.component.ts`, but I am slightly OCD and did add some slight styling to `home-page.component.html`:
 
+<button class="right copy btn" data-clipboard-target="#cli9"><i class="fa fa-clipboard"></i></button>
+<div id='cli9'>
 ```
 // src/app/home-page/home-page.component.html
 
@@ -283,12 +314,15 @@ We don't need to make any changes (yet) to `home-page.component.ts`, but I am sl
   </div>
 </div>
 ```
+</div>
 
 ## Routing and Navigation
 Angular Router give us a way to make our app a [Single Page Application](https://en.wikipedia.org/wiki/Single-page_application) (SPA). To add Angular Router to our project add an import statement in `src/app/app.module.ts`. We will also need to add an array that will hold all of our routes.
 
 This is what our `app.module.ts` looks like now:
 
+<button class="right copy btn" data-clipboard-target="#cli1"><i class="fa fa-clipboard"></i></button>
+<div id='cli1'>
 ```
 // src/app/app.module.ts
 
@@ -326,11 +360,14 @@ const routes: Routes = [
 })
 export class AppModule {}
 ```
+</div>
 
 > Note: Leaving `path: ''` will redirect us to our HomePageComponent from our root url.
 
 To make our app display the contents of the components that we are routing to. We need to add this to our host view. For us that is `src/app/app.component.html'. After our navbar add the following html:
 
+<button class="right copy btn" data-clipboard-target="#cli11"><i class="fa fa-clipboard"></i></button>
+<div id='cli11'>
 ```
 // src/app/app.component.html
 
@@ -338,10 +375,13 @@ To make our app display the contents of the components that we are routing to. W
   <router-outlet></router-outlet>
 </div>
 ```
+</div>
 
 ## Fine Tuning our apps Routing
 We need to make our app function more intelligently. Notice that our base url take you to the `HomePageComponent`, but what if the user is not logged yet? In that case we need to redirect them to the login page. We need to make some changes to `app.component.ts`:
 
+<button class="right copy btn" data-clipboard-target="#cli12"><i class="fa fa-clipboard"></i></button>
+<div id='cli12'>
 ```
 // src/app/app.component.ts
 
@@ -384,6 +424,7 @@ export class AppComponent {
   }
 }
 ```
+</div>
 
 AngularFire2 has two services built in that allow us to asynchronously sync data to Firebase. They are `af.auth` and `af.database`. The one that we use here is `af.auth` and will allow us to use the Authorization features. `af.database` allows us access to the db, which we will use in part 3 of this tutorial.
 
@@ -391,6 +432,8 @@ When we subscribe to `af.auth` we can monitor in real time if a user is logged i
 
 We also made a logout function that would log the user out. Notice that we have a boolean value named `isLoggedIn`, that gets set according to the logged in state of the user. We will use this to add a `Logout` button in our navbar, only if the user is logged in. To implement this lets change `app.component.html`:
 
+<button class="right copy btn" data-clipboard-target="#cli14"><i class="fa fa-clipboard"></i></button>
+<div id='cli14'>
 ```
 // src/app/app.component.html
 
@@ -412,6 +455,7 @@ We also made a logout function that would log the user out. Notice that we have 
   <router-outlet></router-outlet>
 </div>
 ```
+</div>
 
 ## Make Sure our App Works
 

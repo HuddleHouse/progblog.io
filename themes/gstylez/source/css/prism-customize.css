@@ -14,7 +14,6 @@ section.post-content .highlight pre,section.post-content pre {
     overflow: auto;
     font-size: 85%;
     line-height: 1.45;
-    background-color: #fdfdfd;
     border: 0;
     border-radius: 3px
 }
