@@ -43,11 +43,11 @@ Open up your cron file on your server (the command is usually `crontab -e`) and 
 <button class="right copy btn" data-clipboard-target="#crontab"><i class="fa fa-clipboard"></i></button>
 <div id='crontab'>
 ```
-0 8,20 * * * sleep $((3600 * (RANDOM % 4))); letsencrypt renew --agree-tos > /dev/null
+0 8,20 * * * letsencrypt renew --agree-tos > /dev/null
 ```
 </div>
 
-What this does is tell your cron to check the status of your certificate twice a day at a random minute during the 8th and 20th hours of the day (starting at zero). Why do I do it this way? Because that's how they want you to use it, twice a day at a random minute. Feel free to change the 8 and 20 to other numbers if you feel the desire to do so. Finally, we send the output to /dev/null because we don't need it. If you have mail set up on your server, you'd get emailed with the output from above where we didn't use the `--dry-run` flag if you didn't send it to /dev/null.
+What this does is tell your cron to check the status of your certificate twice a day during the 8th and 20th hours of the day (starting at zero). Why do I do it this way? Because that's how they want you to use it! Feel free to change the 8 and 20 to other numbers if you feel the desire to do so. Finally, we send the output to /dev/null because we don't need it. If you have mail set up on your server, you'd get emailed with the output from above where we didn't use the `--dry-run` flag if you didn't send it to /dev/null.
 Optionally you can add `-m youremail@example.com` after `--agree-tos` to send yourself an email when your certificate actually does get renewed.
 
 All done! Welcome to the future!  
