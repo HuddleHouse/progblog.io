@@ -3,6 +3,14 @@
         $('#home-header').append('<section class="banner"> <div class="hero-title"> <h1 style="top: 100px;"> Programing Tutorials &amp; Resources </h1> <h4 id="banner-description" style="top: 100px; width: 50%; margin-left: 25%;">Learn with us! As Full Stack developers we are constantly learning new skills, and this blog is an outlet to share our findings.</h4> </div> </section>');
     });
 
+    function getParameterByName(name) {
+        url = window.location.href;
+        name = name.replace(/[\[\]]/g, "\\$&");
+        var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+            results = regex.exec(url);
+        if (!results || !results[2]) return null;
+        return decodeURIComponent(results[2].replace(/\+/g, " "));
+    }
 </script>
 <div class="row">
   <div class="main index" style="width: 50% !important;">
@@ -65,3 +73,10 @@
     <!--</aside>-->
   <%//}%>
 </div>
+<div id="dialog" title="Email Signup" style="display:none;">
+    Welcome! You have completed the subscription process for out mailing list.
+</div>
+<script>
+    if(getParameterByName("subscribed") != null)
+        $( "#dialog" ).modal();
+</script>
