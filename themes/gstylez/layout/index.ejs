@@ -66,12 +66,12 @@
   <%- partial('partials/pagination') %>
 
   </div>
-  <%//if(theme.sidebar&&theme.widgets.length){%>
-    <!--<aside>-->
+  <%if(theme.sidebar&&theme.widgets.length){%>
+    <aside>
         <!--<a class="img" target="_blank" href="https://www.subtome.com/#/subscribe?feeds=http://feeds.feedburner.com/progblog/BLNZ" onclick="this.href = subscribeNow(this.href,'SubToMe');return true"><img src="https://www.subtome.com/subtome-feedburner.png" alt="Subscribe with SubToMe"></a>-->
-        <!--<%- partial('partials/widgets') %>-->
-    <!--</aside>-->
-  <%//}%>
+        <%- partial('partials/widgets') %>
+    </aside>
+  <%}%>
 </div>
 <div id="dialog" title="Email Signup" style="display:none;">
     Welcome! You have completed the subscription process for out mailing list.
