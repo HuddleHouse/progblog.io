@@ -1,0 +1,1403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="88de919e-e005-4a01-a927-b3af3ad5e55e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/gstylez/layout/partials/footer.ejs" afterPath="$PROJECT_DIR$/themes/gstylez/layout/partials/footer.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/gstylez/layout/post.ejs" afterPath="$PROJECT_DIR$/themes/gstylez/layout/post.ejs" />
+    </list>
+    <ignored path="prog-blog.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="prog-blog" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/index.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+              <folding>
+                <marker date="1490371617000" expanded="true" signature="123:134" ph="..." />
+                <marker date="1490371617000" expanded="true" signature="158:163" ph="&amp;" />
+                <marker date="1490371617000" expanded="true" signature="215:256" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logo.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/gstylez/source/img/logo.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logo-black.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/gstylez/source/img/logo-black.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/gstylez/source/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2924">
+              <caret line="172" column="1" lean-forward="false" selection-start-line="172" selection-start-column="1" selection-end-line="172" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="favicon.ico" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/gstylez/source/img/favicon.ico">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.ejs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/partials/footer.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="58" lean-forward="false" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#footer#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logo-lt-green.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/gstylez/source/img/logo-lt-green.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logo-md-green.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/gstylez/source/img/logo-md-green.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/post.ejs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+              <folding>
+                <element signature="n#style#0;n#form#0;n#section#1;n#header#0;n#article#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="boo.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/themes/gstylez/source/img/boo.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fine</find>
+      <find>https://static.teamtreehouse.com/assets/views/landing_pages/green-illustration-bg-022313732e5aadb8e1b090f89557c859.svg</find>
+      <find>4184f3</find>
+      <find>3c80f6</find>
+      <find>rgba</find>
+      <find>#color</find>
+      <find>.hea</find>
+      <find>#8</find>
+      <find>li a</find>
+      <find>subto</find>
+      <find>tran</find>
+      <find>pagin</find>
+      <find>favi</find>
+      <find>&quot;src&quot;: &quot;\/</find>
+      <find>trans</find>
+      <find>:hover</find>
+      <find>a</find>
+      <find>figure</find>
+      <find>#F</find>
+      <find>POST-CON</find>
+      <find>highlight</find>
+      <find>right</find>
+      <find>code</find>
+      <find>```php</find>
+      <find>css</find>
+      <find>```</find>
+      <find>250</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>559262</replace>
+      <replace>&quot;src&quot;: &quot;\/img\/</replace>
+      <replace>&lt;button class=&quot;right copy btn&quot; data-clipboard-target=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-clipboard&quot;&gt;&lt;/i&gt;&lt;/button&gt; &lt;div id=''&gt;</replace>
+      <replace>```</replace>
+      <replace>&lt;button class=&quot;right copy btn&quot; data-clipboard-target=&quot;#cli&quot;&gt;&lt;i class=&quot;fa fa-clipboard&quot;&gt;&lt;/i&gt;&lt;/button&gt; &lt;div id='cli'&gt;</replace>
+      <replace>&lt;button class=&quot;right copy btn&quot; data-clipboard-target=&quot;#cli&quot;&gt;&lt;i class=&quot;fa fa-clipboard&quot;&gt;&lt;/i&gt;&lt;/button&gt; &lt;div id='cli'&gt; ```</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/source/_posts/2016-10-17-Angular-2-Tutorial-Create-an-App-With-Angular-CLI-and-Angular-Material.md" />
+        <option value="$PROJECT_DIR$/themes/gstylez/layout/partials/title_list.ejs" />
+        <option value="$PROJECT_DIR$/themes/gstylez/layout/partials/pagination.ejs" />
+        <option value="$PROJECT_DIR$/source/about/index.md" />
+        <option value="$PROJECT_DIR$/themes/gstylez/source/css/jquery.tocify.css" />
+        <option value="$PROJECT_DIR$/themes/gstylez/source/js/main.js" />
+        <option value="$PROJECT_DIR$/themes/gstylez/source/js/ads.js" />
+        <option value="$PROJECT_DIR$/themes/gstylez/layout/partials/analytics.ejs" />
+        <option value="$PROJECT_DIR$/themes/gstylez/layout/partials/comments.ejs" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-10-17-Create-an-App-With-Angular-CLI-and-Angular-Material-Design.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-10-17-Angular-2-Tutorial-Create-an-App-With-Angular-Material-Design-and-Angular-CLI.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Firebase-Realtime-Database.md" />
+        <option value="$PROJECT_DIR$/themes/gstylez/layout/partials/theme.ejs" />
+        <option value="$PROJECT_DIR$/themes/gstylez/source/css/nav-icon.css" />
+        <option value="$PROJECT_DIR$/themes/gstylez/source/css/nav-indicator.css" />
+        <option value="$PROJECT_DIR$/themes/gstylez/source/css/preloader.css" />
+        <option value="$PROJECT_DIR$/themes/gstylez/layout/partials/nav.ejs" />
+        <option value="$PROJECT_DIR$/themes/gstylez/source/img/browserconfig.xml" />
+        <option value="$PROJECT_DIR$/themes/gstylez/source/img/manifest.json" />
+        <option value="$PROJECT_DIR$/scaffolds/rich_post.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2017-02-23-Redesign.md" />
+        <option value="$PROJECT_DIR$/themes/gstylez/source/js/activate-clipboard.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/themes/gstylez/source/js/popup.min.js" />
+        <option value="$PROJECT_DIR$/themes/gstylez/source/css/popup.css" />
+        <option value="$PROJECT_DIR$/themes/gstylez/source/js/transition.min.js" />
+        <option value="$PROJECT_DIR$/themes/gstylez/source/css/transition.min.css" />
+        <option value="$PROJECT_DIR$/themes/gstylez/layout/partials/head.ejs" />
+        <option value="$PROJECT_DIR$/themes/gstylez/source/css/prism-customize.css" />
+        <option value="$PROJECT_DIR$/themes/gstylez/source/css/highlight.light.css" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-10-30-How-to-Globally-install-Composer-on-OS-X.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-09-30-Custom-Form-Validation-in-Symfony-3-1-4-Symfony-Form-Component.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-10-01-How-to-Free-SSL-Certificate-that-Renews-Automatically.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-10-02-Symfony-3-1-and-FOSUserbundle-Setting-Up.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-10-02-Symfony-3-1-Up-and-Running-in-60-Seconds.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-10-07-How-to-Store-a-Symfony-Project-on-Github.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-10-09-Symfony-3-1-and-FOSUserBundle-Overriding-the-Default-Templates.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-10-17-Angular-2-Tutorial-Create-an-App-With-Angular-CLI-and-Angular-Material-Design.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-12-17-How-to-deploy-a-Flask-App-to-Heroku.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database.md" />
+        <option value="$PROJECT_DIR$/source/_posts/2017-01-07-Angular-2-Firebase-Tutorial-Part-4-Adding-Email-Password-Authentication.md" />
+        <option value="$PROJECT_DIR$/themes/gstylez/source/css/main.css" />
+        <option value="$PROJECT_DIR$/themes/gstylez/layout/page.ejs" />
+        <option value="$PROJECT_DIR$/themes/gstylez/layout/layout.ejs" />
+        <option value="$PROJECT_DIR$/themes/gstylez/layout/index.ejs" />
+        <option value="$PROJECT_DIR$/themes/gstylez/layout/partials/footer.ejs" />
+        <option value="$PROJECT_DIR$/themes/gstylez/layout/post.ejs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="22" />
+    <option name="width" value="1680" />
+    <option name="height" value="1024" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progblog.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progblog.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progblog.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progblog.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progblog.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progblog.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gstylez" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progblog.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progblog.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gstylez" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progblog.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progblog.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gstylez" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widget" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progblog.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="progblog.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gstylez" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="SearchEverywhereHistoryKey" value="main.&#9;FILE&#9;file:///Users/diego/Sites/progblog.io/themes/gstylez/source/css/main.css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="js.eslint.eslintPackage" value="/usr/local/lib/node_modules/eslint" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/_posts/2016-10-17-Create-an-App-With-Angular-CLI-and-Angular-Material-Design" />
+      <recent name="$PROJECT_DIR$/source/_posts" />
+      <recent name="$PROJECT_DIR$/source/_drafts/2016-12-17-How-to-deploy-a-Flask-App-to-Heroku" />
+      <recent name="$PROJECT_DIR$/source/_drafts" />
+      <recent name="$PROJECT_DIR$/source/_posts/2016-10-30-How-to-Globally-install-Composer-on-OS-X" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/scaffolds/rich_post.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/source/about/index.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/gstylez/layout/index.ejs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/gstylez/layout/partials/comments.ejs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/gstylez/layout/partials/footer.ejs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/gstylez/layout/post.ejs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/gstylez/source/css/main.css</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/source/_posts/2017-03-23-How-to-Using-Angular-2-and-Cloud-Functions-for-Firebase-to-Build-a-Contact-Form-PT-1.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/source/_posts/2017-03-23-How-to-Using-Angular-2-and-Cloud-Functions-for-Firebase-to-Build-a-Contact-Form-PT-1/file-structure.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/themes/gstylez/source/img/pbdickpic.png</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/source/_posts/2017-02-23-Redesign.md</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88de919e-e005-4a01-a927-b3af3ad5e55e" name="Default" comment="" />
+      <created>1475430326902</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1475430326902</updated>
+      <workItem from="1475430328055" duration="2302000" />
+      <workItem from="1475593690012" duration="2983000" />
+      <workItem from="1475598567941" duration="1234000" />
+      <workItem from="1475698936886" duration="1640000" />
+      <workItem from="1475869755100" duration="3648000" />
+      <workItem from="1476030648399" duration="4992000" />
+      <workItem from="1476127719016" duration="626000" />
+      <workItem from="1476703822776" duration="65000" />
+      <workItem from="1476730886480" duration="928000" />
+      <workItem from="1476733574869" duration="5163000" />
+      <workItem from="1476742213708" duration="1207000" />
+      <workItem from="1476825037188" duration="6000" />
+      <workItem from="1477846075697" duration="1291000" />
+      <workItem from="1477939225245" duration="918000" />
+      <workItem from="1478623166105" duration="8026000" />
+      <workItem from="1478671336409" duration="662000" />
+      <workItem from="1478965564190" duration="383000" />
+      <workItem from="1481125023947" duration="1815000" />
+      <workItem from="1481148335590" duration="1000" />
+      <workItem from="1481209654277" duration="1056000" />
+      <workItem from="1481657321110" duration="628000" />
+      <workItem from="1481909660739" duration="4000" />
+      <workItem from="1481998815968" duration="8352000" />
+      <workItem from="1482010053995" duration="1000" />
+      <workItem from="1482010824719" duration="6958000" />
+      <workItem from="1482090190407" duration="947000" />
+      <workItem from="1482200319034" duration="961000" />
+      <workItem from="1483107918735" duration="167000" />
+      <workItem from="1483126744360" duration="1223000" />
+      <workItem from="1483381830652" duration="123000" />
+      <workItem from="1483662283064" duration="11000" />
+      <workItem from="1483802424864" duration="2037000" />
+      <workItem from="1483814213784" duration="395000" />
+      <workItem from="1483815060214" duration="96000" />
+      <workItem from="1484153313113" duration="424000" />
+      <workItem from="1487720502626" duration="947000" />
+      <workItem from="1487723215705" duration="7333000" />
+      <workItem from="1487827298014" duration="4118000" />
+      <workItem from="1487890009292" duration="2695000" />
+      <workItem from="1487893421895" duration="172000" />
+      <workItem from="1487895280304" duration="3000" />
+      <workItem from="1487895296752" duration="899000" />
+      <workItem from="1487896412806" duration="1603000" />
+      <workItem from="1488045546866" duration="9948000" />
+      <workItem from="1488220663504" duration="817000" />
+      <workItem from="1488363727930" duration="167000" />
+      <workItem from="1488474083698" duration="118000" />
+      <workItem from="1488640227461" duration="221000" />
+      <workItem from="1490371610955" duration="1538000" />
+    </task>
+    <task id="LOCAL-00020" summary="New post.">
+      <created>1476040506917</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1476040506917</updated>
+    </task>
+    <task id="LOCAL-00021" summary="New post.">
+      <created>1476127743872</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1476127743872</updated>
+    </task>
+    <task id="LOCAL-00022" summary="New post.">
+      <created>1476742163046</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1476742163046</updated>
+    </task>
+    <task id="LOCAL-00023" summary="New post.">
+      <created>1476742673235</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1476742673235</updated>
+    </task>
+    <task id="LOCAL-00024" summary="New post.">
+      <created>1476743194611</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1476743194611</updated>
+    </task>
+    <task id="LOCAL-00025" summary="New post.">
+      <created>1476743224116</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1476743224116</updated>
+    </task>
+    <task id="LOCAL-00026" summary="How ot globally install composer">
+      <created>1477846373293</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1477846373293</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Adding Adsense">
+      <created>1477939357387</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1477939357387</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Adding Adsense">
+      <created>1477939626696</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1477939626696</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Adding Adsense">
+      <created>1477939728927</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1477939728927</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Adding Adsense">
+      <created>1477939819760</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1477939819760</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Adding Adsense">
+      <created>1477939927852</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1477939927852</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Adding Adsense">
+      <created>1477939993440</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1477939993440</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Adding Adsense">
+      <created>1477940067345</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1477940067346</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Adding Adsense">
+      <created>1477940124037</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1477940124037</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Adding Adsense and fixing styling to show ads">
+      <created>1478626153304</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1478626153304</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Adding Adsense and fixing styling to show ads">
+      <created>1478626483166</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1478626483166</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Adding Adsense and fixing styling to show ads">
+      <created>1478626540328</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1478626540328</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Adding Adsense and fixing styling to show ads">
+      <created>1478626698812</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1478626698812</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Fixing styling on ad's on the side.">
+      <created>1478641262991</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1478641262991</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Fixing styling on ad's on the side.">
+      <created>1478642985931</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1478642985931</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Fixing styling on ad's on the side.">
+      <created>1478644013737</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1478644013737</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Fixing styling on ad's on the side.">
+      <created>1478644070873</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1478644070873</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Fixing styling on ad's on the side.">
+      <created>1478965637324</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1478965637324</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Fixing styling on ad's on the side.">
+      <created>1482003886567</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1482003886567</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Fixing styling on ad's on the side.">
+      <created>1482004493272</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1482004493272</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Fixing styling on ad's on the side.">
+      <created>1482007459520</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1482007459520</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Fixing styling on ad's on the side.">
+      <created>1482007821661</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1482007821661</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Fixing styling on ad's on the side.">
+      <created>1482008224067</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1482008224067</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Fixing styling on ad's on the side.">
+      <created>1482012630499</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1482012630499</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Fixing styling on ad's on the side.">
+      <created>1482014448926</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1482014448926</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Fixing styling on ad's on the side.">
+      <created>1482014839358</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1482014839358</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Adding new blog post.">
+      <created>1482018933488</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1482018933488</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Adding new blog post.">
+      <created>1482090393353</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1482090393353</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Adding new blog post.">
+      <created>1482090534223</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1482090534223</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Adding Clicky analytics">
+      <created>1483108070695</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1483108070696</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Adding Clicky analytics">
+      <created>1483126829141</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1483126829142</updated>
+    </task>
+    <task id="LOCAL-00057" summary="Adding Clicky analytics">
+      <created>1483802604084</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1483802604085</updated>
+    </task>
+    <task id="LOCAL-00058" summary="Adding Clicky analytics">
+      <created>1483814572590</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1483814572590</updated>
+    </task>
+    <task id="LOCAL-00059" summary="Adding Clicky analytics">
+      <created>1483815138885</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1483815138885</updated>
+    </task>
+    <task id="LOCAL-00060" summary="final edits">
+      <created>1487883986500</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1487883986500</updated>
+    </task>
+    <task id="LOCAL-00061" summary="final edits v2 - added pagination stylings and favicons, app icons">
+      <created>1487888639336</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1487888639336</updated>
+    </task>
+    <task id="LOCAL-00062" summary="final edits v2 - added pagination stylings and favicons, app icons">
+      <created>1487888730287</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1487888730287</updated>
+    </task>
+    <task id="LOCAL-00063" summary="final edits v2 - added pagination stylings and favicons, app icons">
+      <created>1487888829326</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1487888829327</updated>
+    </task>
+    <task id="LOCAL-00064" summary="final edits v2 - added pagination stylings and favicons, app icons">
+      <created>1487891838459</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1487891838459</updated>
+    </task>
+    <task id="LOCAL-00065" summary="final edits v2 - new site post and other styles">
+      <created>1487893329698</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1487893329699</updated>
+    </task>
+    <task id="LOCAL-00066" summary="UPDATING SOME STYLEZ">
+      <created>1488053541988</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1488053541988</updated>
+    </task>
+    <task id="LOCAL-00067" summary="UPDATING SOME STYLEZ boiiii">
+      <created>1488057243115</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1488057243115</updated>
+    </task>
+    <task id="LOCAL-00068" summary="UPDATING SOME STYLEZ boiiii">
+      <created>1488057808451</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1488057808451</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="91852000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1680" height="1024" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17600964" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28841788" sideWeight="0.50428265" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32832617" sideWeight="0.496788" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2811159" sideWeight="0.49571735" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850242" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="New post." />
+    <MESSAGE value="How ot globally install composer" />
+    <MESSAGE value="Adding Adsense" />
+    <MESSAGE value="Adding Adsense and fixing styling to show ads" />
+    <MESSAGE value="Fixing styling on ad's on the side." />
+    <MESSAGE value="Adding new blog post." />
+    <MESSAGE value="Adding Clicky analytics" />
+    <MESSAGE value="final edits" />
+    <MESSAGE value="final edits v2 - added pagination stylings and favicons, app icons" />
+    <MESSAGE value="final edits v2 - new site post and other styles" />
+    <MESSAGE value="UPDATING SOME STYLEZ" />
+    <MESSAGE value="UPDATING SOME STYLEZ boiiii" />
+    <option name="LAST_COMMIT_MESSAGE" value="UPDATING SOME STYLEZ boiiii" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/img/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="21" lean-forward="false" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scaffolds/rich_page.md" />
+    <entry file="file://$PROJECT_DIR$/scaffolds/rich_post.md" />
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/img/browserconfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2017-02-23-Redesign.md" />
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/archive.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/js/activate-clipboard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/category.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/js/popup.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="9" column="17854" lean-forward="false" selection-start-line="9" selection-start-column="17854" selection-end-line="9" selection-end-column="17854" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/css/popup.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="8" column="11058" lean-forward="false" selection-start-line="8" selection-start-column="11058" selection-end-line="8" selection-end-column="11058" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/js/transition.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="760">
+          <caret line="9" column="13070" lean-forward="false" selection-start-line="9" selection-start-column="13070" selection-end-line="9" selection-end-column="13070" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/css/transition.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="32166" lean-forward="false" selection-start-line="8" selection-start-column="32166" selection-end-line="8" selection-end-column="32166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/css/prism-customize.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/css/highlight.light.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="78" column="18" lean-forward="true" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-09-26-Angular2-Typscript-First-Look.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-09-30-Custom-Form-Validation-in-Symfony-3-1-4-Symfony-Form-Component.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="102" column="0" lean-forward="false" selection-start-line="102" selection-start-column="0" selection-end-line="103" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-01-How-to-Free-SSL-Certificate-that-Renews-Automatically.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="43" column="16" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-02-Symfony-3-1-and-FOSUserbundle-Setting-Up.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="205" column="13" lean-forward="false" selection-start-line="205" selection-start-column="13" selection-end-line="205" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-02-Symfony-3-1-Up-and-Running-in-60-Seconds.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-07-How-to-Store-a-Symfony-Project-on-Github.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="41" column="6" lean-forward="false" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-09-Symfony-3-1-and-FOSUserBundle-Overriding-the-Default-Templates.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="283" column="0" lean-forward="true" selection-start-line="283" selection-start-column="0" selection-end-line="283" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-17-Angular-2-Tutorial-Create-an-App-With-Angular-CLI-and-Angular-Material-Design.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="423" column="0" lean-forward="true" selection-start-line="423" selection-start-column="0" selection-end-line="423" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-10-30-How-to-Globally-install-Composer-on-OS-X.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-12-17-How-to-deploy-a-Flask-App-to-Heroku.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="79" column="21" lean-forward="true" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-12-27-Angular-2-Firebase-Tutorial-Part-2-Adding-Authentication.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2016-12-29-Angular-2-Firebase-Tutorial-Part-3-Adding-the-Realtime-Database.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="470" column="230" lean-forward="true" selection-start-line="470" selection-start-column="230" selection-end-line="470" selection-end-column="230" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_posts/2017-01-07-Angular-2-Firebase-Tutorial-Part-4-Adding-Email-Password-Authentication.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="381" column="136" lean-forward="true" selection-start-line="381" selection-start-column="136" selection-end-line="381" selection-end-column="136" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/widget/tag.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/widget/recent_posts.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/widget/links.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/partials/nav.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/partials/title_list.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/partials/theme.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/partials/pagination.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/partials/recent-posts.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/partials/head.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="39" lean-forward="false" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/widget/archive.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/page.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/layout.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="4" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding>
+            <marker date="1490371617000" expanded="true" signature="123:134" ph="..." />
+            <marker date="1490371617000" expanded="true" signature="158:163" ph="&amp;" />
+            <marker date="1490371617000" expanded="true" signature="215:256" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/img/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/img/logo-black.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/img/logo-lt-green.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/img/logo-md-green.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/img/boo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2924">
+          <caret line="172" column="1" lean-forward="false" selection-start-line="172" selection-start-column="1" selection-end-line="172" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/source/img/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/partials/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="58" lean-forward="false" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#footer#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/gstylez/layout/post.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="62" column="20" lean-forward="true" selection-start-line="62" selection-start-column="20" selection-end-line="62" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#section#1;n#header#0;n#article#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

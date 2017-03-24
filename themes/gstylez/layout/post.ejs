@@ -42,10 +42,8 @@
 
                   <% } %>
               </div>
+
               <div class="Supporter Supporter--size-728x90">
-                  <div class="Supporter-placeholder" id="ad1">
-                      <strong>If this post helped you, please consider turning off your adblocker <br />or giving us all of your money.</strong>
-                  </div>
                   <div>
                       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                       <!-- Post Ad -->
@@ -61,7 +59,12 @@
               </div>
 
           <section class="post-content">
-              <div class="fb-like" style="margin-top: 20px; margin-left: 27vw;" data-href="https://www.facebook.com/progblog.io" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+              <form action="https://paypal.me/progblog" style="text-align: center; margin-bottom: 30px" method="post" target="_top">
+                  <p>If this post helped you, please consider turning off your adblocker <br />or giving us all of your money.</p>
+                  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+              </form>
+              <!--<div class="fb-like" style="margin-top: 20px; margin-left: 27vw;" data-href="https://www.facebook.com/progblog.io" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>-->
 
               <%-page.content%>
           </section>
