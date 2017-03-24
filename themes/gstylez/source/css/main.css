@@ -75,7 +75,6 @@ body {
     text-align: center;
     position: absolute;
     width: 100%;
-    height: 100%;
     margin: 0;
     overflow: hidden;
     color: #FFFFFF;
@@ -185,7 +184,8 @@ a:hover {
 
 .nav-wrapper {
     background-color: #559262;
-    box-shadow: 0 2px 5px 0 color: rgba(71, 63, 78, 0.26);
+    box-shadow: 0 2px 5px 0;
+    color: rgba(71, 63, 78, 0.26);
     position: relative;
     z-index: 20000;
 }
@@ -356,7 +356,8 @@ article img{
 article code,article tt{
     padding: .1em .2em;
     margin: 0 5px;
-    background-color: color: rgba(71, 63, 78, .04);
+    background-color: rgba(0,0,0,.03);
+    color: rgba(71, 63, 78, .6);
     border-radius: 3px;
 }
 article blockquote{
@@ -425,7 +426,7 @@ figure.highlight {
     user-select: none;
     -webkit-transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
     transition: opacity .1s ease,background-color .1s ease,color .1s ease,box-shadow .1s ease,background .1s ease;
-    will-change: '';
+    /*will-change: '';*/
     padding: .78571429em;
     -webkit-tap-highlight-color: transparent;
 }
@@ -437,7 +438,6 @@ figure.highlight {
     float: right;
     margin-right: 0;
     margin-left: .25em;
-    margin-top: 38px;
 }
 
 .highlight {
@@ -512,7 +512,7 @@ ul.post-tag-list li.post-tag-list-item a::before{
 }
 
 .post-content,.post-abstract{
-    word-break: break-word;
+    word-break: keep-all;
 }
 
 article blockquote ol,article blockquote ul{
@@ -709,7 +709,7 @@ aside {
 
 
 .banner {
-    background-image: linear-gradient(rgba(253,253,253,0.65), rgba(253,253,253,0.6)), url(https://firebasestorage.googleapis.com/v0/b/progblog-3f789.appspot.com/o/progblog-header.svg?alt=media&token=2331a2ee-ffde-4307-8537-58564e4162ea); #fdfdfd;
+    background-image: linear-gradient(rgba(253,253,253,0.65), rgba(253,253,253,0.6)), url(https://firebasestorage.googleapis.com/v0/b/progblog-3f789.appspot.com/o/progblog-header.svg?alt=media&token=2331a2ee-ffde-4307-8537-58564e4162ea);
     background-size: 400px;
     background-attachment: fixed;
     height: 440px;
@@ -745,9 +745,6 @@ figure.highlight.sh {
 #home-header {
     background: #fdfdfd;
 }
-
-
-
 
 
 
