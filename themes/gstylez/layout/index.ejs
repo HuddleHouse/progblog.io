@@ -74,9 +74,10 @@
   <%}%>
 </div>
 <div id="dialog" title="Email Signup" style="display:none;">
-    Welcome! You have completed the subscription process for out mailing list.
+    Welcome! You have completed the subscription process for our mailing list.
 </div>
 <script>
-    if(getParameterByName("subscribed") != null)
+    var param = getParameterByName("subscribed");
+    if(param != null && param != '' && param != '/#' && param!= '#' && param != '/')
         $( "#dialog" ).modal();
 </script>
