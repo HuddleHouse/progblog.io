@@ -11,18 +11,18 @@ tags:
   - Firebase
   - reCaptcha
   - forms
-date: 2017-03-23 15:43:04
+date: 2017-03-25 12:58:34
 ---
 ## Introduction
-It's no mystery that we at progblog love Angular 2 and Firebase. When Google announced Cloud Functions for Firebase, we just had to try it out! In part 1 of this tutorial, we will build the frontend of an over-engineered contact form to learn how use Angular 2's template-driven forms with a slightly reactive approach (more on that later).
+It's no mystery that we at progblog love Angular 2 and Firebase. When Google announced Cloud Functions for Firebase, we just had to try it out! In part one of this tutorial, we will build the frontend of an over-engineered contact form to learn how use Angular 2's template-driven forms with a slightly reactive approach (more on that later).
 
 [Here](https://pb-contact-form.firebaseapp.com/) is a working preview of the form and [here](https://github.com/dockleryxk/pb-contact-form) is the github repo should you want to clone it.
 
-In part two we will build the backend, save the submissions in the database, and use Cloud Functions to send an email of the form contents. Keep in mind that this is a simple use case for these tools, and I am using it to show off the potential. Check [here](https://firebase.google.com/docs/functions/use-cases) for more in-depth info on use cases for functions.
+In part two we will build the backend to save the submissions in the database, and use Cloud Functions to send an email of the form contents. Keep in mind that this is a simple use case for these tools, and I am using it to show off the potential. Check [here](https://firebase.google.com/docs/functions/use-cases) for more in-depth info on use cases for functions.
 
 ## Prerequisites
 The set up for this app is quite similar to the [Firebase CRUD App Tutorial](https://progblog.io/Angular-2-Firebase-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/#Prerequisites), so head over there and follow from the "Prerequisites" section down to and including the "Add Bootstrap to the app for styling" section.
->**Note:** To stick to conventions, the angular-cli package is now called @angular/cli. Install it is like so:
+>**Note:** To stick to conventions, the angular-cli package is now called @angular/cli. Install it like so:
 
 <button class="right copy btn" data-clipboard-target="#cli"><i class="fa fa-clipboard"></i></button><div id='cli'>
 
@@ -66,8 +66,6 @@ export class ContactSubmission {
   public contactMessage: string;
   public contactWebsite: string;
   public captcha: string;
-
-  constructor() {}
 }
 ```
 </div>
@@ -81,7 +79,7 @@ ng g component contact
 ```
 </div>
 
-The cli should have just created a folder in `src/app` called contact containing all of the component files. Additionally, it should have automatically handling the import and declaration in `src/app/app.module.ts`, high tech!
+The cli should have just created a folder in `src/app` called contact containing all of the component files. Additionally, it should have automatically handled the import and declaration in `src/app/app.module.ts`, high tech!
 
 ### The Shared Module
 Next we will use the cli to generate our shared module. We will use it to contain our custom email validation directive. In a real app, it is likely that there would be multiple forms. As such, it is best to keep validation directives, among other reusable code, in a shared module. For more info, [here](https://angular.io/styleguide#!#04-10) is the section about it in the style guide.
@@ -94,7 +92,7 @@ ng g module shared
 ```
 </div>
 
-Now we need to import this module into our app module. While we're on it, now is a good time to import ng-recaptcha package as well. To do so, add the import lines `import { SharedModule } from './shared/shared.module';` and `import { RecaptchaModule } from 'ng-recaptcha';` to the top of `app.module.ts` and then add `SharedModule` and `RecaptchaModule.forRoot()` to your imports. You *must* use forRoot() on the reCaptcha module. Your `app.module.ts` file should now look like this:
+We will need to import this module into our app module. While we're on it, now is a good time to import ng-recaptcha package as well. To do so, add the import lines `import { SharedModule } from './shared/shared.module';` and `import { RecaptchaModule } from 'ng-recaptcha';` to the top of `app.module.ts` and then add `SharedModule` and `RecaptchaModule.forRoot()` to your imports. You *must* use forRoot() on the reCaptcha module. Your `app.module.ts` file should now look like this:
 <button class="right copy btn" data-clipboard-target="#app-mod"><i class="fa fa-clipboard"></i></button><div id='app-mod'>
 
 ```
@@ -158,7 +156,7 @@ export class EmailValidatorDirective implements Validator {
 ```
 </div>
 
-The important part is the validate function which tests a value against the regex and returns null if it is valid, or that atrocious JSON if invalid.
+The important part is the validate function which tests a value against the regex and returns null if it is valid, or that overly complex JSON if invalid.
 
 It is not a coincidence that we changed to the shared model directory before generating our new directive. The Angular cli is smart enough to recognize this and automagically import the directive into the shared module and not the app module. Unfortunately however it does not know that we are building a shared module, so we must export or directive from our module manually. Your shared module should now reflect this:
 <button class="right copy btn" data-clipboard-target="#imp-dir"><i class="fa fa-clipboard"></i></button><div id='imp-dir'>
@@ -185,7 +183,7 @@ That was a lot! Double check that your file structure matches mine, and then we 
 ![File Structure](file-structure.png)
 
 ## Form Building
-Now that everything is set up, we can start building the form. In Angular 2, the are three choices in regards to the type of form building approach we take. They are template-driven, reactive, and then the middle of the road approach which incorporates elements of the two former. You may read more about that [here](https://angular.io/docs/ts/latest/cookbook/form-validation.html). The approach we are taking here is the middle of the road.
+Now that everything is set up, we can start building the form. In Angular 2, there are three choices in regards to the type of form building approach we take: template-driven, reactive, and then the middle of the road approach which incorporates elements of the other two. You may read more about that [here](https://angular.io/docs/ts/latest/cookbook/form-validation.html). The approach we are taking here is the middle of the road.
 
 First, we need to write our main template file. Since all we're doing is displaying a form, it's very simple:
 <button class="right copy btn" data-clipboard-target="#cont-html"><i class="fa fa-clipboard"></i></button><div id='cont-html'>
@@ -205,7 +203,7 @@ First, we need to write our main template file. Since all we're doing is display
 ```
 </div>
 
-You may notice that I changed app-contact to pb-contact. TSLint does not like it, but I like naming my components to my liking. As far as I know, it does not matter.
+You may notice that I changed app-contact to pb-contact. TSLint does not like it, but I like naming my components whatever I want. I'm a rebel, and I do as I please. Are you still reading? Take a break if you're starting to fade. From here until the end is the most important part.
 
 ### The CSS
 This is totally optional, but the form might as well look great, right?
@@ -258,9 +256,9 @@ It's time to put the face on! Let's go through it one piece at a time, starting 
 
 There's two main points to talk about here. First is the form tag.
 `<form #contactForm="ngForm" [hidden]="submitted" (ngSubmit)="captchaRef.execute()">`
-First, we set a template reference variable, contactForm, to keep track of the form as a whole. Next, we bind the hidden directive to trigger when the submitted flag is set. Finally, we bind the recaptcha.execute function to be triggered when the form gets submitted.
+We set a template reference variable, contactForm, to keep track of the form as a whole. Next, we bind the hidden directive to trigger when the submitted flag is set. Finally, we bind the recaptcha.execute function to be triggered when the form gets submitted.
 
-If you have used reCaptchas before, you might be perplexed by the execute function. It's because it's going to be an *invisible* reCaptcha, which isn't called until just before the form is submitted. 
+If you have used reCaptchas before, you might be perplexed by the execute function. It's because it's going to be an *invisible* reCaptcha, which isn't called until just before the form is submitted. At the time of this posting, invisible reCaptchas are a relatively new thing. 
 
 The second point here is the div following the form. It simply appears after submission to show the submitted values. This will be removed from the final version. Now, let's go through each group in the form:
 <button class="right copy btn" data-clipboard-target="#group1"><i class="fa fa-clipboard"></i></button><div id='group1'>
@@ -302,9 +300,9 @@ Next is the email field:
 ```
 </div>
 
-As you can see, this is largely the same, except we have referenced a validator that we have yet to define -- appEmailValidator.
+As you can see, this is largely the same, except appEmailValidator from earlier.
 
-Next, the simplest input, website, does not have much to it at all because it really isn't important.
+Next, the simplest input, website, does not have much to it at all because it really isn't important. We will sanitize it server side.
 <button class="right copy btn" data-clipboard-target="#group3"><i class="fa fa-clipboard"></i></button><div id='group3'>
 
 ```
@@ -493,7 +491,7 @@ Now let's talk about the instance variables:
 </div>
 
 Wow, that is quite a list! The first three are self-evident, so I'll skip those:
-* contactForm is the currentForm as the javascript last saw it. It's used to compare changes.
+* contactForm is the currentForm as this class last saw it. It's used to compare changes.
 * @ViewChild('contactForm') currentForm is a reference to the template reference variable contactForm. Whew.
 * submittedForm is serving as our diagnostic, so we will get rid of it later.
 * formErrors is the object where error messages that currently apply to the form are stored.
@@ -538,9 +536,9 @@ Now, let's go through the first half of the functions.
 
 ngAfterViewChecked calls what is essentially a change listener, formChanged. If there is not change, we do nothing, but if there is a change since the last check we subscribe to the form's observable.
 
-The listener called onValueChanged in order to populate/clear the formError fields, should there be any need.
+The listener called onValueChanged in order to populate/clear the formError fields, should there be any need. It works by matching field names from formErrors and validationMessages. The keys of each field name of validationMessages is the name of the HTML5 error triggered.
 
-As far as the last two functions go, onSubmit doesn't do much yet, and countChars is obvious, so I'm going to paste up the whole file now.
+As far as the last two functions go, onSubmit doesn't do much yet, and countChars is obvious, so I'm going to paste up the whole file.
 <button class="right copy btn" data-clipboard-target="#function2"><i class="fa fa-clipboard"></i></button><div id='function2'>
 
 ```
@@ -626,7 +624,6 @@ As far as the last two functions go, onSubmit doesn't do much yet, and countChar
      this.charsLeft = 250 - event.target.value.length;
    }
  }
-
 ```
 </div>
 
