@@ -17,16 +17,16 @@ Things are constantly changing with programming. Sometimes it can seem daunting 
 
 It was actually such an easy upgrade that I was inspired to write this blog post about it! I am currently working on three projects that are using Angular 2 and all three upgraded to Angular 4 without any complications. So lets get to it.
 
-## 1. Angular 4 is smaller than Angular 2
+### 1. Angular 4 is smaller than Angular 2
 The Angular dev team has done a great job minimizing the AOT (ahead-of-time) generated good. This is how they describe it:
 
 > These changes reduce the size of the generated code for your components by around 60%  in most cases. The more complex your templates are, the higher the savings.
 
-## 2. Angular 4 is faster than Angular 2
+### 2. Angular 4 is faster than Angular 2
 
-The Angular dev team did a great job enhancing the speed. It has been noticable when doing development, but I have not been able to test the difference on a live server.
+The Angular dev team did a great job enhancing the speed. It has been noticeable when doing development, but I have not been able to test the difference on a live server.
 
-## 3. Angular 4 has enhanced \*ngFor and \*ngIf
+### 3. Angular 4 has enhanced \*ngFor and \*ngIf
 
 They add an if/else style sytax to \*ngIf. When you are making asynchronous calls to say, a Firebase database, you can add a loading screen within the page while that data loads. The example that the Angular Dev team gives is:
 
@@ -44,7 +44,7 @@ They add an if/else style sytax to \*ngIf. When you are making asynchronous call
 
 There is a lot of potential with the ability of an if/else.
 
-## 4. Angular 4 has more meaningful errors
+### 4. Angular 4 has more meaningful errors
 
 Many times in programming there are not many helpful error messages, your app just won't work. Angular 4 continues to try to change this by generating source maps.
 
@@ -54,4 +54,6 @@ When an error is caused in one of your templates, Angular 4 "generate source map
 
 ## Conclusion
 
-Most Angular 2 apps will work using Angular 4 without changing anything. It might not be a momumental upgrade, in terms of visible changes, but it offers huge enhancements to Angular 2. It really shows the Angular Teams' commitment to making Angular applicatons smaller and faster, which makes me super happy!
+Most Angular 2 apps will work using Angular 4 without changing anything. It might not be a monumental upgrade, in terms of visible changes, but it offers huge enhancements to Angular 2. It really shows the Angular Teams' commitment to making Angular applications smaller and faster, which makes me super happy!
+
+[Here](http://angularjs.blogspot.com/2017/03/angular-400-now-available.html) is the official Angular 4 announcement.
