@@ -1,11 +1,12 @@
 ---
-title: 'How-to: Using Angular 2 and Cloud Functions for Firebase to Build a Contact Form, Part 1'
+title: 'How-to: Using Angular 4 and Cloud Functions for Firebase to Build a Contact Form, Part 1'
 toc: true
 author: Richard Jeffords
 author_img: /img/pbdickpic.png
 author_link: 'https://richardjeffords.com'
 excerpt: 'In part 1 of this tutorial, we will build the frontend of an over-engineered contact form.'
 tags:
+  - Angular 4
   - Angular 2
   - Cloud Functions
   - Firebase
@@ -14,7 +15,9 @@ tags:
 date: 2017-03-25 12:58:34
 ---
 ## Introduction
-It's no mystery that we at progblog love Angular 2 and Firebase. When Google announced Cloud Functions for Firebase, we just had to try it out! In part one of this tutorial, we will build the frontend of an over-engineered contact form to learn how use Angular 2's template-driven forms with a slightly reactive approach (more on that later).
+It's no mystery that we at progblog love Angular 2 (now 4) and Firebase. When Google announced Cloud Functions for Firebase, we just had to try it out! In part one of this tutorial, we will build the frontend of an over-engineered contact form to learn how use Angular 4's template-driven forms with a slightly reactive approach (more on that later).
+
+On a side note, this was originally built in Angular 2, but I updated the packages to Angular 4 and had no problems. Beautiful!
 
 [Here](https://pb-contact-form.firebaseapp.com/) is a working preview of the form and [here](https://github.com/dockleryxk/pb-contact-form) is the github repo should you want to clone it.
 
@@ -183,7 +186,7 @@ That was a lot! Double check that your file structure matches mine, and then we 
 ![File Structure](file-structure.png)
 
 ## Form Building
-Now that everything is set up, we can start building the form. In Angular 2, there are three choices in regards to the type of form building approach we take: template-driven, reactive, and then the middle of the road approach which incorporates elements of the other two. You may read more about that [here](https://angular.io/docs/ts/latest/cookbook/form-validation.html). The approach we are taking here is the middle of the road.
+Now that everything is set up, we can start building the form. In Angular 4, there are three choices in regards to the type of form building approach we take: template-driven, reactive, and then the middle of the road approach which incorporates elements of the other two. You may read more about that [here](https://angular.io/docs/ts/latest/cookbook/form-validation.html). The approach we are taking here is the middle of the road.
 
 First, we need to write our main template file. Since all we're doing is displaying a form, it's very simple:
 <button class="right copy btn" data-clipboard-target="#cont-html"><i class="fa fa-clipboard"></i></button><div id='cont-html'>
@@ -354,7 +357,7 @@ In addition to validation, I added a binding on keyup to display the amount of c
 ```
 </div>
 
-The invisible reCaptcha requires the resolved binding so it can know what function to call once it is done verifying. For more information on how it works, go [here](https://www.google.com/recaptcha/intro/invisible.html). For more information on how it works in Angular 2, go [here](https://www.npmjs.com/package/ng-recaptcha).
+The invisible reCaptcha requires the resolved binding so it can know what function to call once it is done verifying. For more information on how it works, go [here](https://www.google.com/recaptcha/intro/invisible.html). For more information on how it works in Angular 4, go [here](https://www.npmjs.com/package/ng-recaptcha).
 
 That's it for the HTML! You could check now, but you're going to get errors since there is nothing done in the typescript. At any rate, here is the full file:
 <button class="right copy btn" data-clipboard-target="#group6"><i class="fa fa-clipboard"></i></button><div id='group6'>
@@ -456,7 +459,7 @@ export class ContactComponent implements AfterViewChecked {
 ```
 </div>
 
-We'll be implementing AfterViewChecked to check for validation changes, and using ViewChild to access template variables. The rest is pretty standard Angular 2 stuff. Don't forget to import the model!
+We'll be implementing AfterViewChecked to check for validation changes, and using ViewChild to access template variables. The rest is pretty standard Angular 4 stuff. Don't forget to import the model!
 
 Now let's talk about the instance variables:
 <button class="right copy btn" data-clipboard-target="#instance-vars"><i class="fa fa-clipboard"></i></button><div id='instance-vars'>
