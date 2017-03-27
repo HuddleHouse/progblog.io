@@ -27,7 +27,8 @@ In part two we will build the backend to save the submissions in the database, a
 The set up for this app is quite similar to the [Firebase CRUD App Tutorial](https://progblog.io/Angular-2-Firebase-Tutorial-Part-1-Create-a-Firebase-3-CRUD-app-with-Angular-CLI/#Prerequisites), so head over there and follow from the "Prerequisites" section down to and including the "Add Bootstrap to the app for styling" section.
 >**Note:** To stick to conventions, the angular-cli package is now called @angular/cli. Install it like so:
 
-<button class="right copy btn" data-clipboard-target="#cli"><i class="fa fa-clipboard"></i></button><div id='cli'>
+<button class="right copy btn" data-clipboard-target="#cli"><i class="fa fa-clipboard"></i></button>
+<div id='cli'>
 
 ```
 npm install -g @angular/cli@latest
@@ -38,7 +39,8 @@ npm install -g @angular/cli@latest
 
 ### A Dependency Approaches..
 I decided to use the [ng-recaptcha](https://www.npmjs.com/package/ng-recaptcha) package for handling the reCaptcha. I tried to do it myself at first, so I can confidently tell you now it's not worth the time. Go ahead and run the following command in the root of your project:
-<button class="right copy btn" data-clipboard-target="#install-recaptcha"><i class="fa fa-clipboard"></i></button><div id='install-recaptcha'>
+<button class="right copy btn" data-clipboard-target="#install-recaptcha"><i class="fa fa-clipboard"></i></button>
+<div id='install-recaptcha'>
 
 ```
 npm install ng-recaptcha --save
@@ -47,7 +49,8 @@ npm install ng-recaptcha --save
 
 ## Scaffolding
 We are almost ready to start coding, but first we need to get the structure set up. To start, I added the following line to `src/styles.css` because I think Bootstrap looks much nicer this way.
-<button class="right copy btn" data-clipboard-target="#styles"><i class="fa fa-clipboard"></i></button><div id='styles'>
+<button class="right copy btn" data-clipboard-target="#styles"><i class="fa fa-clipboard"></i></button>
+<div id='styles'>
 
 ```
 * { border-radius: 0 !important; }
@@ -58,7 +61,8 @@ We are almost ready to start coding, but first we need to get the structure set 
 Let's get this out of the way, because we'll never need to look at this again. The `model` in this project is the JSON used to encapsulate forms in Angular.
 
 In the `src/app` directory make a new folder called `models`. Inside of that folder create a file called `contact-submission.ts`. Here are the contents:
-<button class="right copy btn" data-clipboard-target="#model"><i class="fa fa-clipboard"></i></button><div id='model'>
+<button class="right copy btn" data-clipboard-target="#model"><i class="fa fa-clipboard"></i></button>
+<div id='model'>
 
 ```
 // src/models/contact-submission.ts
@@ -75,7 +79,8 @@ export class ContactSubmission {
 
 ### The Contact Component
 It's time to generate the main piece we will be working on with the cli. Use the following command:
-<button class="right copy btn" data-clipboard-target="#gen-comp"><i class="fa fa-clipboard"></i></button><div id='gen-comp'>
+<button class="right copy btn" data-clipboard-target="#gen-comp"><i class="fa fa-clipboard"></i></button>
+<div id='gen-comp'>
 
 ```
 ng g component contact
@@ -88,7 +93,8 @@ The cli should have just created a folder in `src/app` called contact containing
 Next we will use the cli to generate our shared module. We will use it to contain our custom email validation directive. In a real app, it is likely that there would be multiple forms. As such, it is best to keep validation directives, among other reusable code, in a shared module. For more info, [here](https://angular.io/styleguide#!#04-10) is the section about it in the style guide.
 
 Now, let's generate it:
-<button class="right copy btn" data-clipboard-target="#gen-shared"><i class="fa fa-clipboard"></i></button><div id='gen-shared'>
+<button class="right copy btn" data-clipboard-target="#gen-shared"><i class="fa fa-clipboard"></i></button>
+<div id='gen-shared'>
 
 ```
 ng g module shared
@@ -96,7 +102,8 @@ ng g module shared
 </div>
 
 We will need to import this module into our app module. While we're on it, now is a good time to import ng-recaptcha package as well. To do so, add the import lines `import { SharedModule } from './shared/shared.module';` and `import { RecaptchaModule } from 'ng-recaptcha';` to the top of `app.module.ts` and then add `SharedModule` and `RecaptchaModule.forRoot()` to your imports. You *must* use forRoot() on the reCaptcha module. Your `app.module.ts` file should now look like this:
-<button class="right copy btn" data-clipboard-target="#app-mod"><i class="fa fa-clipboard"></i></button><div id='app-mod'>
+<button class="right copy btn" data-clipboard-target="#app-mod"><i class="fa fa-clipboard"></i></button>
+<div id='app-mod'>
 
 ```
 // src/app.module.ts
@@ -131,7 +138,8 @@ export class AppModule { }
 
 ### The Custom Email Validation Directive
 Lastly, run `cd src/app/shared` to move locations to your shared module, and then generate the directive like so:
-<button class="right copy btn" data-clipboard-target="#gen-dir"><i class="fa fa-clipboard"></i></button><div id='gen-dir'>
+<button class="right copy btn" data-clipboard-target="#gen-dir"><i class="fa fa-clipboard"></i></button>
+<div id='gen-dir'>
 
 ```
 ng g directive email-validator
@@ -139,7 +147,8 @@ ng g directive email-validator
 </div>
 
 While we're here, let's build the directive so we don't have to come back. It's rather straightforward:
-<button class="right copy btn" data-clipboard-target="#dir-logic"><i class="fa fa-clipboard"></i></button><div id='dir-logic'>
+<button class="right copy btn" data-clipboard-target="#dir-logic"><i class="fa fa-clipboard"></i></button>
+<div id='dir-logic'>
 
 ```
 import { Directive } from '@angular/core';
@@ -162,7 +171,8 @@ export class EmailValidatorDirective implements Validator {
 The important part is the validate function which tests a value against the regex and returns null if it is valid, or that overly complex JSON if invalid.
 
 It is not a coincidence that we changed to the shared model directory before generating our new directive. The Angular cli is smart enough to recognize this and automagically import the directive into the shared module and not the app module. Unfortunately however it does not know that we are building a shared module, so we must export or directive from our module manually. Your shared module should now reflect this:
-<button class="right copy btn" data-clipboard-target="#imp-dir"><i class="fa fa-clipboard"></i></button><div id='imp-dir'>
+<button class="right copy btn" data-clipboard-target="#imp-dir"><i class="fa fa-clipboard"></i></button>
+<div id='imp-dir'>
 
 ```
 // src/app/shared/shared.module.ts
@@ -189,7 +199,8 @@ That was a lot! Double check that your file structure matches mine, and then we 
 Now that everything is set up, we can start building the form. In Angular 4, there are three choices in regards to the type of form building approach we take: template-driven, reactive, and then the middle of the road approach which incorporates elements of the other two. You may read more about that [here](https://angular.io/docs/ts/latest/cookbook/form-validation.html). The approach we are taking here is the middle of the road.
 
 First, we need to write our main template file. Since all we're doing is displaying a form, it's very simple:
-<button class="right copy btn" data-clipboard-target="#cont-html"><i class="fa fa-clipboard"></i></button><div id='cont-html'>
+<button class="right copy btn" data-clipboard-target="#cont-html"><i class="fa fa-clipboard"></i></button>
+<div id='cont-html'>
 
 ```
 // src/app/app.component.html
@@ -210,7 +221,8 @@ You may notice that I changed app-contact to pb-contact. TSLint does not like it
 
 ### The CSS
 This is totally optional, but the form might as well look great, right?
-<button class="right copy btn" data-clipboard-target="#the-css"><i class="fa fa-clipboard"></i></button><div id='the-css'>
+<button class="right copy btn" data-clipboard-target="#the-css"><i class="fa fa-clipboard"></i></button>
+<div id='the-css'>
 
 ```
 /* src/app/contact/contact.component.css */
@@ -233,7 +245,8 @@ This is totally optional, but the form might as well look great, right?
 
 ### The HTML
 It's time to put the face on! Let's go through it one piece at a time, starting the with outermost tags:
-<button class="right copy btn" data-clipboard-target="#outer"><i class="fa fa-clipboard"></i></button><div id='outer'>
+<button class="right copy btn" data-clipboard-target="#outer"><i class="fa fa-clipboard"></i></button>
+<div id='outer'>
 
 ```
 // src/app/contact/contact.component.html
@@ -264,7 +277,8 @@ We set a template reference variable, contactForm, to keep track of the form as 
 If you have used reCaptchas before, you might be perplexed by the execute function. It's because it's going to be an *invisible* reCaptcha, which isn't called until just before the form is submitted. At the time of this posting, invisible reCaptchas are a relatively new thing. 
 
 The second point here is the div following the form. It simply appears after submission to show the submitted values. This will be removed from the final version. Now, let's go through each group in the form:
-<button class="right copy btn" data-clipboard-target="#group1"><i class="fa fa-clipboard"></i></button><div id='group1'>
+<button class="right copy btn" data-clipboard-target="#group1"><i class="fa fa-clipboard"></i></button>
+<div id='group1'>
 
 ```
 <div class="form-group">
@@ -284,7 +298,8 @@ The second point here is the div following the form. It simply appears after sub
 Our name field is pretty standard fare. We have our two-way binding to the model, the template reference variable, the form name, and so on. Following that, we have an error field that will show up if there are errors. More on that later.
 
 Next is the email field:
-<button class="right copy btn" data-clipboard-target="#group2"><i class="fa fa-clipboard"></i></button><div id='group2'>
+<button class="right copy btn" data-clipboard-target="#group2"><i class="fa fa-clipboard"></i></button>
+<div id='group2'>
 
 ```
 <div class="form-group">
@@ -306,7 +321,8 @@ Next is the email field:
 As you can see, this is largely the same, except appEmailValidator from earlier.
 
 Next, the simplest input, website, does not have much to it at all because it really isn't important. We will sanitize it server side.
-<button class="right copy btn" data-clipboard-target="#group3"><i class="fa fa-clipboard"></i></button><div id='group3'>
+<button class="right copy btn" data-clipboard-target="#group3"><i class="fa fa-clipboard"></i></button>
+<div id='group3'>
 
 ```
 <div class="form-group">
@@ -322,7 +338,8 @@ Next, the simplest input, website, does not have much to it at all because it re
 </div>
 
 Here is the message field, a textarea, with a small feature I added for fun:
-<button class="right copy btn" data-clipboard-target="#group4"><i class="fa fa-clipboard"></i></button><div id='group4'>
+<button class="right copy btn" data-clipboard-target="#group4"><i class="fa fa-clipboard"></i></button>
+<div id='group4'>
 
 ```
 <div class="form-group">
@@ -344,7 +361,8 @@ Here is the message field, a textarea, with a small feature I added for fun:
 </div>
 
 In addition to validation, I added a binding on keyup to display the amount of characters are left before the message limit is reached. Lastly, here's the reCaptcha and submit button:
-<button class="right copy btn" data-clipboard-target="#group5"><i class="fa fa-clipboard"></i></button><div id='group5'>
+<button class="right copy btn" data-clipboard-target="#group5"><i class="fa fa-clipboard"></i></button>
+<div id='group5'>
 
 ```
 <re-captcha #captchaRef="reCaptcha"
@@ -360,7 +378,8 @@ In addition to validation, I added a binding on keyup to display the amount of c
 The invisible reCaptcha requires the resolved binding so it can know what function to call once it is done verifying. For more information on how it works, go [here](https://www.google.com/recaptcha/intro/invisible.html). For more information on how it works in Angular 4, go [here](https://www.npmjs.com/package/ng-recaptcha).
 
 That's it for the HTML! You could check now, but you're going to get errors since there is nothing done in the typescript. At any rate, here is the full file:
-<button class="right copy btn" data-clipboard-target="#group6"><i class="fa fa-clipboard"></i></button><div id='group6'>
+<button class="right copy btn" data-clipboard-target="#group6"><i class="fa fa-clipboard"></i></button>
+<div id='group6'>
 
 ```
 <!-- src/app/contact/contact.component.html -->
@@ -438,7 +457,8 @@ That's it for the HTML! You could check now, but you're going to get errors sinc
 
 ### The Typescript
 Almost done! In the spirit of consistency, Let's start with the bits outside of the class:
-<button class="right copy btn" data-clipboard-target="#outside-class"><i class="fa fa-clipboard"></i></button><div id='outside-class'>
+<button class="right copy btn" data-clipboard-target="#outside-class"><i class="fa fa-clipboard"></i></button>
+<div id='outside-class'>
 
 ```
 import { Component, AfterViewChecked, ViewChild } from '@angular/core';
@@ -462,7 +482,8 @@ export class ContactComponent implements AfterViewChecked {
 We'll be implementing AfterViewChecked to check for validation changes, and using ViewChild to access template variables. The rest is pretty standard Angular 4 stuff. Don't forget to import the model!
 
 Now let's talk about the instance variables:
-<button class="right copy btn" data-clipboard-target="#instance-vars"><i class="fa fa-clipboard"></i></button><div id='instance-vars'>
+<button class="right copy btn" data-clipboard-target="#instance-vars"><i class="fa fa-clipboard"></i></button>
+<div id='instance-vars'>
 
 ```
   model = new ContactSubmission();
@@ -501,7 +522,8 @@ Wow, that is quite a list! The first three are self-evident, so I'll skip those:
 * validationMessages is the object where we store an error message for each error type, for each field we want to provide feedback for.
 
 Now, let's go through the first half of the functions.
-<button class="right copy btn" data-clipboard-target="#function1"><i class="fa fa-clipboard"></i></button><div id='function1'>
+<button class="right copy btn" data-clipboard-target="#function1"><i class="fa fa-clipboard"></i></button>
+<div id='function1'>
 
 ```
  ngAfterViewChecked() {
@@ -542,7 +564,8 @@ ngAfterViewChecked calls what is essentially a change listener, formChanged. If 
 The listener called onValueChanged in order to populate/clear the formError fields, should there be any need. It works by matching field names from formErrors and validationMessages. The keys of each field name of validationMessages is the name of the HTML5 error triggered.
 
 As far as the last two functions go, onSubmit doesn't do much yet, and countChars is obvious, so I'm going to paste up the whole file.
-<button class="right copy btn" data-clipboard-target="#function2"><i class="fa fa-clipboard"></i></button><div id='function2'>
+<button class="right copy btn" data-clipboard-target="#function2"><i class="fa fa-clipboard"></i></button>
+<div id='function2'>
 
 ```
  src/app/contact/contact.component.ts
