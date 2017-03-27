@@ -484,8 +484,8 @@ figure.highlight {
 }
 .post-info{
     /*display: flex;*/
-    justify-content: space-between;
-    align-items: center;
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
 }
 .post-date{
     color: rgba(71, 63, 78, 1);

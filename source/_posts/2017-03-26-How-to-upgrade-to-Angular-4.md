@@ -1,5 +1,5 @@
 ---
-title: How to upgrade to Angular 4
+title: How to Upgrade to Angular 4
 toc: true
 author: Matt Huddleston
 author_img: /img/matt.jpg

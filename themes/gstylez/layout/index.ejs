@@ -31,7 +31,8 @@
       </a>
 
        <section class="post-info">
-        <span class="post-date"><%- date(post.date, 'YYYY/MM/DD') %></span>
+           <span class="post-date">by <a href="<%- post.author_link %>"><%- post.author %></a></span><br>
+           <span class="post-date"> <%- date(post.date, 'YYYY/MM/DD') %></span><br>
           <% if (post.categories && post.categories.length&&theme.show_post_category){ %>
           <span class="post-category">
               <%- list_categories(post.categories, {
