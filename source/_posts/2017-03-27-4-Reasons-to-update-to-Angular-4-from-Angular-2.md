@@ -1,5 +1,5 @@
 ---
-title: 4 Reasons to update to Angular 4 from Angular 2
+title: 4 Reasons to Update to Angular 4 from Angular 2
 toc: true
 author: Matt Huddleston
 author_img: /img/matt.jpg
